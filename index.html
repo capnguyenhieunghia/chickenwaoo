@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang chủ</title>
+  <!-- Nhúng file reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link code có thể nhúng icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Nhúng CSS  -->
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="header-top">
+      <div class="header-section-one" style="gap: 10px;">
+        <a href="#"> <img src="./image/logo.png" alt="Logo" /></a>
+        <input type="text" name="find" id="find" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="header-section-two">
+        <a href="./html/login.html"><img src="./image/user.svg" alt="user" /></a>
+        <a href="./html/cart.html"><img src="./image/cart.svg" alt="cart" /></a>
+        <p id="quantity-in-cart">0</p>
+      </div>
+    </div>
+  </header>
+  <!-- End header -->
+
+  <!-- End menu bar -->
+  <!-- section 1: Danh mục sản phẩm-->
+  <div class="section1">
+    <div
+      style="display: flex; justify-content: center; align-items: center;    background-color: #fcccb7; padding:10px;">
+      <div>
+        <h2 style="margin-bottom: 0; font-size: 50px;">Nhà Hàng Thảo Uyên</h2>
+        <p style="margin-bottom: 20px; font-size: 20px; padding: 5px;">Không cần bay sang Seoul, hương vị Hàn Quốc đã có
+          tại Thảo Uyên 🇰🇷”
+          “Ăn một miếng là nhớ mãi – chuẩn vị Hàn ngay giữa lòng Việt ”
+          “Cả Hàn Quốc gói gọn trong một bàn ăn ở Thảo Uyên 🍜🔥”</p>
+        <div><a href=""
+            style="border: #e68b64; background-color: #e68b64; padding: 10px 20px; border-radius: 5px; color: white; font-size: 20px;">Thông
+            tin nhà hàng</a></div>
+      </div>
+      <img
+        src="https://lh5.googleusercontent.com/Fuhwc1d8-takSBqGkDE5v_AuOmpAfCtWvtAvBtQNaN5zv2-RR2Bi92n_0LTGMg4XYBPT54meMHFr9_3pjoNK4rxXwvatTxbp9vbJXxMjFd_mT-TuE77ku8EBd6X1U0lbOk2Lis56kBelIrLug9j7jta18PTSco1evYjs3kgE57kMP_c3mXmilGjS-MyM_A"
+        width="700px" height="500px" style="object-fit: contain; border-radius: 10px;" alt="banner" class="banner" />
+    </div>
+    <div class="section1-product">
+      <ul>
+        <li>
+          <a href="./html/product.html" id="dog-food">
+            <img src="./images/tranhietdoi.png" alt="Trà" />
+            <span>Trà</span>
+          </a>
+        </li>
+        <li>
+          <a href="./html/product.html" id="dog-snack">
+            <img src="./images/tomicay.png" alt="Mì cay" />
+            <span>Mì cay <br /></span>
+          </a>
+        </li>
+        <li>
+          <a href="./html/product.html" id="cat-food">
+            <img src="./images/trasua.png" alt="Trà sữa" />
+            <span>Trà sữa</span>
+          </a>
+        </li>
+        <li>
+          <a href="./html/product.html" id="cat-pate">
+            <img src="./images/kimbap1.png" alt="Kimbap" />
+            <span>Kimbap</span>
+          </a>
+        </li>
+        <li>
+          <a href="./html/product.html" id="balo">
+            <img src="./images/tokki.png" alt="Tokkbokki" />
+            <span>Tokkbokki</span>
+          </a>
+        </li>
+        <li>
+          <a href="./html/product.html" id="pet-bed">
+            <img src="./images/lau.png" alt="Set lẩu" />
+            <span>Set lẩu</span>
+          </a>
+        </li>
+        <!-- <li>
+            <a href="#">
+              <img src="./image/do-choi.png" alt="Đồ chơi chó mèo" />
+              <span>Đồ chơi chó mèo</span>
+            </a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- section 1 -->
+
+  <!-- Section 2: Chương trình khuyến mãi -->
+  <div class="section2">
+    <div class="section2-title">
+      <span>Chương trình khuyến mãi</span>
+    </div>
+    <div class="section2-discount">
+      <div class="section2-discount-item">
+        <div class="section2-item-content">
+          <p>COMBO Lẩu THƯỞNG WANPY 10 THANH</p>
+          <p>ĐỒNG GIÁ 220K</p>
+          <p>Cho đơn hàng tối thiểu 10 sản phẩm</p>
+          <p>Hạn sử dụng: KHÔNG GIỚI HẠN</p>
+        </div>
+        <img src="./image/discount.png" alt="Giảm giá" />
+      </div>
+      <div class="section2-discount-item">
+        <div class="section2-item-content">
+          <p>COMBO Mì cay THƯỞNG WANPY 10 THANH</p>
+          <p>ĐỒNG GIÁ 120K</p>
+          <p>Cho đơn hàng tối thiểu 10 sản phẩm</p>
+          <p>Hạn sử dụng: KHÔNG GIỚI HẠN</p>
+        </div>
+        <img src="./image/discount.png" alt="Giảm giá" />
+      </div>
+      <div class="section2-discount-item">
+        <div class="section2-item-content">
+          <p>GIẢM 2% CHO ĐƠN HÀNG TIẾP THEO</p>
+          <p>GIẢM 15% CHO ĐƠN HÀNG TRÊN 1TR</p>
+          <p>GIẢM THÊM 5% KHI GIỚI THIỆU BẠN BÈ MUA HÀNG</p>
+        </div>
+      </div>
+    </div>
+    <!-- Hình chân mèo -->
+    <img src="./image/leg-cat.png" alt="chân mèo" class="leg1" />
+    <img src="./image/leg-cat2.png" alt="chân mèo" class="leg2" />
+    <!-- End hình chân mèo -->
+  </div>
+  <!-- End Section 2 -->
+
+  <!-- Section 3: Sản phẩm flash sale -->
+  <div class="section3">
+    <div class="product">
+      <div class="product-title">
+        <p>Khuyến mãi: <span>Flash sale</span></p>
+        <!-- <a href="#">Xem thêm ></a> -->
+      </div>
+      <div class="product-list">
+        <div class="product-item" id="product-sale-1">
+          <img src="./image/product-sale-1.png" alt="Sale 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+          <p class="product-item-sale">-20%</p>
+        </div>
+        <div class="product-item" id="product-sale-2">
+          <img src="./image/product-sale-2.png" alt="Sale 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+          <p class="product-item-sale">-15%</p>
+        </div>
+        <div class="product-item" id="product-sale-3">
+          <img src="./image/product-sale-3.png" alt="Sale 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+          <p class="product-item-sale">-10%</p>
+        </div>
+        <div class="product-item" id="product-sale-4">
+          <img src="./image/product-sale-4.png" alt="Sale 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+          <p class="product-item-sale">-5%</p>
+        </div>
+      </div>
+    </div>
+    <img src="./image/leg-cat3.png" alt="Chan meo" class="leg3" />
+  </div>
+  <!-- End Section 3 -->
+
+  <!-- Section 4: Sản phẩm mới -->
+  <div class="section4">
+    <div class="product">
+      <div class="product-title">
+        <p>Sản phẩm mới: <span>New</span></p>
+        <!-- <a href="#">Xem thêm ></a> -->
+      </div>
+      <div class="product-list">
+        <div class="product-item" id="product-new-1">
+          <img src="./image/product-new-1.png" alt="new 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+
+        <div class="product-item" id="product-new-2">
+          <img src="./image/product-new-2.png" alt="new 2" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+        <div class="product-item" id="product-new-3">
+          <img src="./image/product-new-3.png" alt="new 3" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+        <div class="product-item" id="product-new-4">
+          <img src="./image/product-new-4.png" alt="new 4" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+      </div>
+    </div>
+    <img src="./image/leg-cat2.png" alt="Chan meo" class="leg2" />
+  </div>
+  <!-- End section 4-->
+
+  <!-- Section 5: Sản phẩm có sẵn-->
+  <div class="section5">
+    <div class="product">
+      <div class="product-title">
+        <p>Sản phẩm có sẵn: <span>Stock</span></p>
+        <!-- <a href="#">Xem thêm ></a> -->
+      </div>
+      <div class="product-list">
+        <div class="product-item" id="product-restock-1">
+          <img src="./image/product-restock-1.png" alt="stock 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+        <div class="product-item" id="product-restock-2">
+          <img src="./image/product-restock-2.png" alt="restock 2" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+        <div class="product-item" id="product-restock-3">
+          <img src="./image/product-restock-3.png" alt="Sale 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+        <div class="product-item" id="product-restock-4">
+          <img src="./image/product-sale-4.png" alt="Sale 1" />
+          <p class="product-item-tittle"></p>
+          <p class="product-item-price"></p>
+        </div>
+      </div>
+    </div>
+    <img src="./image/leg-cat2.png" alt="Chan meo" class="leg2" />
+    <img src="./image/leg-cat3.png" alt="Chan meo" class="leg3" />
+  </div>
+  <!-- End section 5 -->
+
+  <!-- Footer -->
+  <footer>
+    <hr />
+    <div class="footer-section1">
+      <div class="section1-block1">
+        <img src="./image/email.svg" alt="Email" />
+        <p>Đăng ký nhận tin</p>
+      </div>
+      <div class="section1-block2">
+        <input type="email" name="email" id="email" placeholder="Nhập email của bạn:" />
+        <span>Đăng ký</span>
+      </div>
+      <div class="section1-block3">
+        <img src="./image/phone.svg" alt="Phone" />
+        <p>Hotline: 0792352701</p>
+      </div>
+    </div>
+    <hr />
+    <div class="footer-section2">
+      <div class="introduce">
+        <h2>GIỚI THIỆU</h2>
+        <p>
+          Phong cách sang trọng, tinh tế
+          • “Thưởng vị Hàn – chạm đỉnh tinh hoa ẩm thực tại Thảo Uyên.”
+          • “Ẩm thực Hàn Quốc đích thực, dành cho thực khách tinh tế.”
+          • “Một không gian – ngàn hương vị Hàn, chỉ có tại Thảo Uyên Restaurant.”
+          ⸻⸻⸻⸻⸻⸻⸻⸻
+
+
+        </p>
+        <img src="./image/xac-nhan-bct.png" alt="Xác nhận bộ công thương" />
+      </div>
+      <div class="policy">
+        <h2>CHÍNH SÁCH</h2>
+        <ul>
+          <li><a href="#">Liên hệ</a></li>
+          <li><a href="#">Hình thức thanh toán</a></li>
+          <li><a href="#">Điều khoản dịch vụ</a></li>
+          <li><a href="#">Chính sách vận chuyển</a></li>
+          <li><a href="#">Chính sách đổi trả</a></li>
+          <li><a href="#">Chính sách bảo mật thông tin</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>THÔNG TIN LIÊN HỆ</h2>
+        <div class="cover-contact">
+          <img src="./image/address.svg" alt="địa chỉ" />
+          <p>256 Trần Hưng Đạo, phường 11, Thành phố Vũng Tàu</p>
+        </div>
+        <div class="cover-contact">
+          <img src="./image/phone.svg" alt="SĐT" />
+          <p>0792352701</p>
+        </div>
+        <div class="cover-contact">
+          <img src="./image/email.svg" alt="Email" />
+          <p>meowpetshop2024@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="./js/index.js"></script>
+  <script src="./js/base.js"></script>
+</body>
+
+</html>
