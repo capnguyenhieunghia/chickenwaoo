@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function preloadData() {
   //Lưu local storage
   // Lưu dữ liệu từ tệp JSON vào localStorage
-  fetch("./data/product-list.json")
+  fetch("../data/product-list.json")
     .then((response) => response.json())
     .then((productListData) => {
       localStorage.setItem("productList", JSON.stringify(productListData));
@@ -143,7 +143,7 @@ function openProductDetail(products) {
       }
 
       //Chuyển trang
-      window.location.href = "./html/product-detail.html";
+      window.location.href = "../html/product-detail.html";
     });
   });
 }
