@@ -3,9 +3,15 @@ body {
   margin-right: 25%;
   align-items: center;
   min-height: 100vh;
-  background-image: url("../image/background.png");
+  background-image: url("../images/bg.jpg");
   background-color: var(--color-one);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: aliceblue;
+}
+a{
+  color: #fff;
 }
 .cover {
   width: 100%;
@@ -18,8 +24,8 @@ body {
   border: 1px solid rgba(255, 255, 255, 2);
   border-radius: 10px;
   padding: 30px 40px;
-  backdrop-filter: blur(20px);
-  background-color: #fddacc;
+  backdrop-filter: blur(2px);
+  background-color: #e99577;
   perspective: 1000px;
   transform-style: preserve-3d;
 }

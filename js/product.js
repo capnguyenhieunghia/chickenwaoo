@@ -62,28 +62,28 @@ function onLoad() {
   document.getElementById("product-list").innerHTML = productHTML;
   //Set tiêu đề trang
   switch (idPage) {
-    case "dog-food": {
-      document.querySelector("h1").innerHTML = "Hạt cho chó";
+    case "tra": {
+      document.querySelector("h1").innerHTML = "Các loại trà";
       break;
     }
-    case "dog-snack": {
-      document.querySelector("h1").innerHTML = "Snack, xương gặm cho chó";
+    case "mycay": {
+      document.querySelector("h1").innerHTML = "Mỳ cay";
       break;
     }
-    case "cat-food": {
-      document.querySelector("h1").innerHTML = "Hạt cho mèo";
+    case "trasua": {
+      document.querySelector("h1").innerHTML = "Trà sữa";
       break;
     }
-    case "cat-pate": {
-      document.querySelector("h1").innerHTML = "Pate cho mèo";
+    case "kimbap": {
+      document.querySelector("h1").innerHTML = "Kimbap";
       break;
     }
-    case "balo": {
-      document.querySelector("h1").innerHTML = "Balo vận chuyển";
+    case "tokkbokki": {
+      document.querySelector("h1").innerHTML = "Tokkbokki";
       break;
     }
-    case "pet-bed": {
-      document.querySelector("h1").innerHTML = "Ổ đệm, giường";
+    case "lau": {
+      document.querySelector("h1").innerHTML = "Set lẩu";
       break;
     }
     case "productFilter": {

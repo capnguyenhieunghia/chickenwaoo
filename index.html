@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trang chủ</title>
+  <title>Trang chủ - CHICKEN WAOO</title>
   <!-- Nhúng file reset -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -13,9 +13,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!--Nhúng CSS  -->
+  <!-- Nhúng CSS -->
   <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="index1.css">
   <link rel="stylesheet" href="./css/index.css" />
+  <!-- Nhúng CSS animations mới -->
+  <link rel="stylesheet" href="./css/enhanced-animations.css" />
 </head>
 
 <body>
@@ -23,8 +26,8 @@
   <header class="header">
     <div class="header-top">
       <div class="header-section-one" style="gap: 10px;">
-        <a href="#"> <img src="./image/logo.png" alt="Logo" /></a>
-        <input type="text" name="find" id="find" />
+        <a href="./index.html"><img src="./images/logo-removebg-preview.png" width="100px" alt="Logo" /></a>
+        <input type="text" name="find" id="find" placeholder="Tìm kiếm món ăn..." />
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
       <div class="header-section-two">
@@ -36,118 +39,217 @@
   </header>
   <!-- End header -->
 
-  <!-- End menu bar -->
-  <!-- section 1: Danh mục sản phẩm-->
+  <!-- section 1: Hero Banner + Danh mục sản phẩm -->
   <div class="section1">
-    <div
-      style="display: flex; justify-content: center; align-items: center;    background-color: #fcccb7; padding:10px;">
-      <div>
-        <h2 style="margin-bottom: 0; font-size: 50px;">CHICKEN WAOO</h2>
-        <p style="margin-bottom: 20px; font-size: 20px; padding: 5px;">Không cần bay sang Seoul, hương vị Hàn Quốc đã có
-          tại CHICKEN WAOO 🇰🇷”
-          “Ăn một miếng là nhớ mãi – chuẩn vị Hàn ngay giữa lòng Việt ”
-          “Cả Hàn Quốc gói gọn trong một bàn ăn ở CHICKEN WAOO 🍜🔥”</p>
-        <div><a href=""
-            style="border: #e68b64; background-color: #e68b64; padding: 10px 20px; border-radius: 5px; color: white; font-size: 20px;">Thông
-            tin nhà hàng</a></div>
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+      <div class="hero-content-wrapper">
+        <div class="hero-text-content">
+          <h2>CHICKEN WAOO</h2>
+          <p>🇰🇷 Không cần bay sang Seoul, hương vị Hàn Quốc đã có tại CHICKEN WAOO!</p>
+          <p>"Ăn một miếng là nhớ mãi – chuẩn vị Hàn ngay giữa lòng Việt"</p>
+          <p>"Cả Hàn Quốc gói gọn trong một bàn ăn ở CHICKEN WAOO 🍜🔥"</p>
+          <a href="#menu" class="hero-btn">Đặt món ngay 🔥</a>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="./images/bg.jpg" alt="banner" class="banner" />
+        </div>
       </div>
-      <img src="./images/bg.jpg" width="100px" height="500px" style="width: 990px;object-fit: cover;  border-radius: 10px;"
-        alt="banner" class="banner" />
     </div>
+
+    <!-- Danh mục sản phẩm -->
     <div class="section1-product">
       <ul>
         <li>
-          <a href="./html/product.html" id="dog-food">
+          <a href="./html/product.html" id="tra">
             <img src="./images/tranhietdoi.png" alt="Trà" />
-            <span>Trà</span>
           </a>
+          <span>Trà</span>
         </li>
         <li>
-          <a href="./html/product.html" id="dog-snack">
+          <a href="./html/product.html" id="mycay">
             <img src="./images/tomicay.png" alt="Mì cay" />
-            <span>Mì cay <br /></span>
           </a>
+          <span>Mì cay</span>
         </li>
         <li>
-          <a href="./html/product.html" id="cat-food">
+          <a href="./html/product.html" id="trasua">
             <img src="./images/trasua.png" alt="Trà sữa" />
-            <span>Trà sữa</span>
           </a>
+          <span>Trà sữa</span>
         </li>
         <li>
-          <a href="./html/product.html" id="cat-pate">
+          <a href="./html/product.html" id="kimbap">
             <img src="./images/kimbap1.png" alt="Kimbap" />
-            <span>Kimbap</span>
           </a>
+          <span>Kimbap</span>
         </li>
         <li>
-          <a href="./html/product.html" id="balo">
+          <a href="./html/product.html" id="tokkbokki">
             <img src="./images/tokki.png" alt="Tokkbokki" />
-            <span>Tokkbokki</span>
           </a>
+          <span>Tokkbokki</span>
         </li>
         <li>
-          <a href="./html/product.html" id="pet-bed">
+          <a href="./html/product.html" id="lau">
             <img src="./images/lau.png" alt="Set lẩu" />
-            <span>Set lẩu</span>
           </a>
-        </li>
-        <!-- <li>
-            <a href="#">
-              <img src="./image/do-choi.png" alt="Đồ chơi chó mèo" />
-              <span>Đồ chơi chó mèo</span>
-            </a> -->
+          <span>Set lẩu</span>
         </li>
       </ul>
     </div>
   </div>
-  <!-- section 1 -->
+  <!-- End section 1 -->
+  <section class="about">
+    <h2 class="section-title" style="text-align: center; font-size: 2.5rem; margin-bottom: 20px; margin-top: -10px;">Về
+      Chúng Tôi</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=600" alt="Restaurant">
+        <div class="about-badge">⭐ 4.8/5 Rating</div>
+      </div>
+      <div class="about-text">
+        <!-- <h2 style="text-align: start; font-size: 22px; margin-bottom: -2px;">Ẩm Thực Hàn Quốc Đích Thực</h2> -->
+        <p>Chicken Waoo tự hào mang đến cho thực khách những món ăn Hàn Quốc chính gốc với hương vị đậm đà, nguyên bản
+          nhất.</p>
+        <p>Với đội ngũ đầu bếp giàu kinh nghiệm và nguyên liệu nhập khẩu trực tiếp từ Hàn Quốc, chúng tôi cam kết mang
+          đến trải nghiệm ẩm thực tuyệt vời nhất.</p>
 
+        <div class="features">
+          <div class="feature-item">
+            <div class="feature-icon">✨</div>
+            <div>
+              <strong>Chất lượng 5 sao</strong>
+              <p>Nguyên liệu tươi ngon</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🚚</div>
+            <div>
+              <strong>Giao hàng nhanh</strong>
+              <p>30 phút có mặt</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">💯</div>
+            <div>
+              <strong>Đảm bảo vệ sinh</strong>
+              <p>An toàn thực phẩm</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">💰</div>
+            <div>
+              <strong>Giá cả hợp lý</strong>
+              <p>Ưu đãi hấp dẫn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Section 2: Chương trình khuyến mãi -->
   <div class="section2">
     <div class="section2-title">
-      <span>Chương trình khuyến mãi</span>
+      <h2 class="section-title-enhanced">Chương Trình Khuyến Mãi</h2>
     </div>
     <div class="section2-discount">
       <div class="section2-discount-item">
         <div class="section2-item-content">
-          <p>COMBO Lẩu THƯỞNG WANPY 10 THANH</p>
-          <p>ĐỒNG GIÁ 220K</p>
-          <p>Cho đơn hàng tối thiểu 10 sản phẩm</p>
-          <p>Hạn sử dụng: KHÔNG GIỚI HẠN</p>
+          <p><strong>COMBO Lẩu THƯỢNG HẠNG</strong></p>
+          <p>✨ Đồng giá 220K</p>
+          <p>📦 Đơn hàng tối thiểu 10 sản phẩm</p>
+          <p>⏰ Hạn sử dụng: KHÔNG GIỚI HẠN</p>
         </div>
         <img src="./image/discount.png" alt="Giảm giá" />
       </div>
       <div class="section2-discount-item">
         <div class="section2-item-content">
-          <p>COMBO Mì cay THƯỞNG WANPY 10 THANH</p>
-          <p>ĐỒNG GIÁ 120K</p>
-          <p>Cho đơn hàng tối thiểu 10 sản phẩm</p>
-          <p>Hạn sử dụng: KHÔNG GIỚI HẠN</p>
+          <p><strong>COMBO Mì Cay ĐẶC BIỆT</strong></p>
+          <p>✨ Đồng giá 120K</p>
+          <p>📦 Đơn hàng tối thiểu 10 sản phẩm</p>
+          <p>⏰ Hạn sử dụng: KHÔNG GIỚI HẠN</p>
         </div>
         <img src="./image/discount.png" alt="Giảm giá" />
       </div>
       <div class="section2-discount-item">
         <div class="section2-item-content">
-          <p>GIẢM 2% CHO ĐƠN HÀNG TIẾP THEO</p>
-          <p>GIẢM 15% CHO ĐƠN HÀNG TRÊN 1TR</p>
-          <p>GIẢM THÊM 5% KHI GIỚI THIỆU BẠN BÈ MUA HÀNG</p>
+          <p><strong>ƯU ĐÃI KHÁCH HÀNG</strong></p>
+          <p>🎁 Giảm 2% cho đơn hàng tiếp theo</p>
+          <p>💎 Giảm 15% đơn hàng trên 1TR</p>
+          <p>👥 Giảm 5% khi giới thiệu bạn bè</p>
+
         </div>
+        <img src="./image/discount.png" alt="Giảm giá" />
       </div>
     </div>
     <!-- Hình chân mèo -->
     <img src="./image/leg-cat.png" alt="chân mèo" class="leg1" />
     <img src="./image/leg-cat2.png" alt="chân mèo" class="leg2" />
-    <!-- End hình chân mèo -->
   </div>
   <!-- End Section 2 -->
+  <div class="menu-wrap">
+    <div class="menu-header">
+      <div>
+        <h1>Menu Nhà Hàng</h1>
+        <p class="muted">Chọn món ngon — ảnh bên trái, mô tả & giá bên phải</p>
+      </div>
+      <div class="muted">Cập nhật: <!-- thay đổi ngày nếu cần --> 16/10/2025</div>
+    </div>
 
+    <div class="menu-list">
+
+      <!-- Mẫu 1 -->
+      <article class="menu-item">
+        <figure class="menu-img">
+          <!-- Thay src bằng đường dẫn hình của bạn -->
+          <img src="./images/z7120117883158_5adbaf7d02ac6fd0190819a48e8e64b4.jpg" alt="Menu đồ ăn">
+        </figure>
+        <div class="menu-info">
+          <div class="menu-row">
+            <div style="flex:1">
+              <h2 class="menu-title">Menu đồ ăn</h2>
+              <p class="menu-desc">Có các món đồ ăn hàn quốc được chế biến thơm ngon bắt mắt</p>
+            </div>
+            <div class="price">Xem ngay</div>
+          </div>
+          <div class="meta">
+            <span class="badge">Không cay</span>
+            <span class="badge">Phù hợp ăn trưa</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Mẫu 2 -->
+      <div>
+        <article class="menu-item">
+          <figure class="menu-img">
+            <img src="./images/z7120116991109_70c13c8bb3a67b7884949b75081e8ae6.jpg" alt="Menu đồ uống">
+          </figure>
+          <div class="menu-info">
+            <div class="menu-row">
+              <div style="flex:1">
+                <h2 class="menu-title">Menu đồ uống</h2>
+                <p class="menu-desc">Các món nước thơm ngon mát lạnh.</p>
+              </div>
+              <div class="price">Xem ngay</div>
+            </div>
+            <div class="meta">
+              <span class="badge">Đề xuất</span>
+              <span class="badge">Phù hợp cho 2 người</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <!-- Thêm nhiều mục tùy thích -->
+    </div>
+  </div>
   <!-- Section 3: Sản phẩm flash sale -->
-  <div class="section3">
+  <div class="section3" id="menu">
     <div class="product">
       <div class="product-title">
-        <p>Khuyến mãi: <span>Flash sale</span></p>
-        <!-- <a href="#">Xem thêm ></a> -->
+        <h2 class="section-title-enhanced">Khuyến Mãi: <span style="color: #ec1e1e;">Flash Sale</span></h2>
       </div>
       <div class="product-list">
         <div class="product-item" id="product-sale-1">
@@ -157,19 +259,19 @@
           <p class="product-item-sale">-20%</p>
         </div>
         <div class="product-item" id="product-sale-2">
-          <img src="./image/product-sale-2.png" alt="Sale 1" />
+          <img src="./image/product-sale-2.png" alt="Sale 2" />
           <p class="product-item-tittle"></p>
           <p class="product-item-price"></p>
           <p class="product-item-sale">-15%</p>
         </div>
         <div class="product-item" id="product-sale-3">
-          <img src="./image/product-sale-3.png" alt="Sale 1" />
+          <img src="./image/product-sale-3.png" alt="Sale 3" />
           <p class="product-item-tittle"></p>
           <p class="product-item-price"></p>
           <p class="product-item-sale">-10%</p>
         </div>
         <div class="product-item" id="product-sale-4">
-          <img src="./image/product-sale-4.png" alt="Sale 1" />
+          <img src="./image/product-sale-4.png" alt="Sale 4" />
           <p class="product-item-tittle"></p>
           <p class="product-item-price"></p>
           <p class="product-item-sale">-5%</p>
@@ -184,8 +286,7 @@
   <div class="section4">
     <div class="product">
       <div class="product-title">
-        <p>Sản phẩm mới: <span>New</span></p>
-        <!-- <a href="#">Xem thêm ></a> -->
+        <h2 class="section-title-enhanced">Sản Phẩm Mới: <span style="color: #ec1e1e;">New</span></h2>
       </div>
       <div class="product-list">
         <div class="product-item" id="product-new-1">
@@ -193,7 +294,6 @@
           <p class="product-item-tittle"></p>
           <p class="product-item-price"></p>
         </div>
-
         <div class="product-item" id="product-new-2">
           <img src="./image/product-new-2.png" alt="new 2" />
           <p class="product-item-tittle"></p>
@@ -219,8 +319,7 @@
   <div class="section5">
     <div class="product">
       <div class="product-title">
-        <p>Sản phẩm có sẵn: <span>Stock</span></p>
-        <!-- <a href="#">Xem thêm ></a> -->
+        <h2 class="section-title-enhanced">Sản Phẩm Có Sẵn: <span style="color: #ec1e1e;">Stock</span></h2>
       </div>
       <div class="product-list">
         <div class="product-item" id="product-restock-1">
@@ -234,12 +333,12 @@
           <p class="product-item-price"></p>
         </div>
         <div class="product-item" id="product-restock-3">
-          <img src="./image/product-restock-3.png" alt="Sale 1" />
+          <img src="./image/product-restock-3.png" alt="restock 3" />
           <p class="product-item-tittle"></p>
           <p class="product-item-price"></p>
         </div>
         <div class="product-item" id="product-restock-4">
-          <img src="./image/product-sale-4.png" alt="Sale 1" />
+          <img src="./image/product-sale-4.png" alt="restock 4" />
           <p class="product-item-tittle"></p>
           <p class="product-item-price"></p>
         </div>
@@ -249,82 +348,95 @@
     <img src="./image/leg-cat3.png" alt="Chan meo" class="leg3" />
   </div>
   <!-- End section 5 -->
+  <section class="testimonials">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; margin-bottom: 20px;">Khách Hàng Nói Gì</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p class="testimonial-text">"Món ăn ngon tuyệt vời! Mình đã thử tokbokki và kimbap, cả hai đều rất đúng vị
+          Hàn.
+          Sẽ quay lại ủng hộ!"</p>
+        <div class="customer-info">
+          <div class="customer-avatar">N</div>
+          <div>
+            <div class="customer-name">Nguyễn Minh</div>
+            <small>Khách hàng thân thiết</small>
+          </div>
+        </div>
+      </div>
 
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p class="testimonial-text">"Lẩu Hàn Quốc ở đây chuẩn vị lắm! Nước lẩu đậm đà, rau củ tươi ngon. Giá cả phải
+          chăng, phục vụ nhiệt tình."</p>
+        <div class="customer-info">
+          <div class="customer-avatar">T</div>
+          <div>
+            <div class="customer-name">Trần Anh</div>
+            <small>Đã đặt 15 lần</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p class="testimonial-text">"Không gian đẹp, món ăn ngon, phục vụ tốt. Mình rất thích trà ở đây, thơm mát lắm.
+          Nhất định sẽ giới thiệu bạn bè!"</p>
+        <div class="customer-info">
+          <div class="customer-avatar">L</div>
+          <div>
+            <div class="customer-name">Lê Hương</div>
+            <small>Khách hàng mới</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Footer -->
   <footer>
-    <hr />
-    <div class="footer-section1">
-      <div class="section1-block1">
-        <img src="./image/email.svg" alt="Email" />
-        <p>Đăng ký nhận tin</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Giới Thiệu</h3>
+        <p>Chicken Waoo - Mang hương vị Hàn Quốc đích thực đến với bạn. Ẩm thực Hàn tinh tế dành cho thực khách sành
+          điệu.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon"><img src="./images/fb.png" width="170px" alt=""></a>
+          <a href="#" class="social-icon"><img src="./images/is.png" width="120px" alt=""></a>
+          <a href="#" class="social-icon"><img src="./images/thr.png" width="50px" alt=""></a>
+        </div>
       </div>
-      <div class="section1-block2">
-        <input type="email" name="email" id="email" placeholder="Nhập email của bạn:" />
-        <span>Đăng ký</span>
+
+      <!-- <div class="footer-section">
+        <h3>Liên Kết</h3>
+        <p><a href="#">Trang chủ</a></p>
+        <p><a href="#">Thực đơn</a></p>
+        <p><a href="#">Khuyến mãi</a></p>
+        <p><a href="#">Liên hệ</a></p>
+      </div> -->
+
+      <div class="footer-section">
+        <h3>Chính Sách</h3>
+        <p><a href="#">Điều khoản dịch vụ</a></p>
+        <p><a href="#">Chính sách vận chuyển</a></p>
+        <p><a href="#">Chính sách đổi trả</a></p>
+        <p><a href="#">Bảo mật thông tin</a></p>
       </div>
-      <div class="section1-block3">
-        <img src="./image/phone.svg" alt="Phone" />
-        <p>Hotline: 0792352701</p>
+
+      <div class="footer-section">
+        <h3>Liên Hệ</h3>
+        <p>📍 282 Xã Đàn, Phương Liên, Đống Đa, Hà Nội</p>
+        <p>📞 0377664403</p>
+        <p>📞 0363997029</p>
+        <p>✉️ chickenwaoo@gmail.com</p>
       </div>
     </div>
-    <hr />
-    <div class="footer-section2">
-      <div class="introduce">
-        <h2>GIỚI THIỆU</h2>
-        <p>
-          Phong cách sang trọng, tinh tế
-          • “Thưởng vị Hàn – chạm đỉnh tinh hoa ẩm thực tại Thảo Uyên.”
-          • “Ẩm thực Hàn Quốc đích thực, dành cho thực khách tinh tế.”
-          • “Một không gian – ngàn hương vị Hàn, chỉ có tại Thảo Uyên Restaurant.”
-          ⸻⸻⸻⸻⸻⸻⸻⸻
 
-
-        </p>
-        <!-- <img src="./image/xac-nhan-bct.png" alt="Xác nhận bộ công thương" /> -->
-      </div>
-      <div class="policy">
-        <h2>CHÍNH SÁCH</h2>
-        <ul>
-          <li><a href="#">Liên hệ</a></li>
-          <li><a href="#">Hình thức thanh toán</a></li>
-          <li><a href="#">Điều khoản dịch vụ</a></li>
-          <li><a href="#">Chính sách vận chuyển</a></li>
-          <li><a href="#">Chính sách đổi trả</a></li>
-          <li><a href="#">Chính sách bảo mật thông tin</a></li>
-        </ul>
-      </div>
-      <div class="contact">
-        <h2>THÔNG TIN LIÊN HỆ</h2>
-        <div class="cover-contact">
-          <img src="./image/address.svg" alt="địa chỉ" />
-          <p>282 Xã Đàn, Phường Phương Liên, Quân Đống Đa, Hà Nội</p>
-        </div>
-        <div class="cover-contact">
-          <img src="./image/phone.svg" alt="SĐT" />
-          <p>0377664403</p>
-          <p>0363997029</p>
-        </div>
-        <div class="cover-contact">
-          <img src="./image/email.svg" alt="Email" />
-          <p>chickenwaoo@gmail.com</p>
-          <p>info@chickenwaoo.com</p>
-        </div>
-        <div style="gap: 10px; display: flex; ">
-          <div style="display: flex; justify-content: center; align-items: center;"><img src="./images/fb.png" alt=""
-              width="100px"><a
-              href="https://web.facebook.com/people/Beo-%C4%90%E1%BA%A1i-V%C6%B0%C6%A1ng/61567140190820/">Facebook</a>
-          </div>
-          <div style="display: flex; justify-content: center; align-items: center;"><img src="./images/is.png" alt=""
-              width="100px"><a href="https://www.threads.com/@beodaivuongday?igshid=NTc4MTIwNjQ2YQ==">Instagram</a>
-          </div>
-          <div style="display: flex; justify-content: center; align-items: center;"><img src="./images/thr.png" alt=""
-              width="50px"><a href="https://www.instagram.com/beodaivuongday/?igsh=d2Z1YXRmdGN3bzdk">Thread</a></div>
-        </div>
-      </div>
+    <div class="copyright">
+      <p>© 2025 <strong>Chicken Waoo</strong>. All rights reserved. | Design by CapNguyenHieuNghia</p>
     </div>
   </footer>
-    © 2025 <strong>CapNguyenHieuNghia</strong>. All rights reserved.
   <!-- End Footer -->
+
   <script src="./js/index.js"></script>
   <script src="./js/base.js"></script>
 </body>

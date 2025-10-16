@@ -2,409 +2,113 @@
   {
     "id": "0",
     "title": "Trà Nhài",
-    "src": "images/z7120116735567_21b5e5ebdfe9c2f69daabb9f071fe2c5.jpg",
-    "price": "75000",
-    "category": "Trà",
-    "description": "Các thành phần có trong các sản phẩm thức ăn thú cưng của hãng Lider đặc biệt phải kể đến như: Vitamin A, C, B3, B5, B8, B9, D3, E, K,  kẽm, đồng, sắt, i-ôt,.. Các prebiotics tự nhiên (Fructooligosacharides), Glucosamin,  Nha đam (Aloe Vera), Chất chống oxy hoá (antioxidants), Đại mạch (barley), Protein từ cá,Mỡ cá, Beta glucan, Bột đậu, Chiết xuất hương thảo, Nấm men bia (brewery yeast), Red dog, Lúa mì, Cám lúa mì (wheat bran), Bột thịt và xương, Mã đề (pysillium), Bột cà rốt, Xơ thuỷ phân, Protein thuỷ phân từ gan gà, Eugenia chất chống oxy hoá tự nhiên từ thực vật, Carnitine, Bột carob, Chiết xuất nam việt quất (cranberry), Choline chloride (Ngăn ngừa sự tích tụ mỡ trong gan và bảo vệ gan.), Chondroitin sulphate, gạo, ngũ cốc, Protein cừu, nghệ,…"
+    "src": "images/z7120116767295_1841fe0717cec49844ea01d5859d78dc.jpg",
+    "price": "35000",
+    "category": "tra",
+    "description": "🫖 Trà Thức uống thanh mát được pha từ những lá trà tươi chọn lọc, mang đến hương vị tự nhiên và dịu nhẹ. Thích hợp để giải nhiệt và thư giãn sau bữa ăn."
   },
   {
     "id": "1",
-    "title": "1.2kg THỨC ĂN HẠT MỀM CHÓ CON ZENITH PUPPY ",
-    "src": "image/dog-food-1.jpg",
-    "price": "185000",
-    "category": "dog-food",
-    "description": "Dành cho chó con dưới 1 tuổi. Không chứa ngũ cốc, không gây dị ứng. Được chế biến từ thịt cừu, bột gà, gạo lứt, yến mạch. Giúp giảm bớt mùi phân và mùi cơ thể. Giúp tăng cường sức đề kháng, phòng ngừa bệnh tật. Làm đẹp da, đẹp lông. Cung cấp chất dinh dưỡng cần thiết cho sự tăng trưởng của chó con. Giúp tăng cường sức khỏe đường ruột, tiêu hóa tốt, ngừa tiêu chảy"
+    "title": "Trà hoa quả nhiệt đới",
+    "src": "images/z7120118701110_bd7f56568aefaa4b939050bc528d2c99.jpg",
+    "price": "35000",
+    "category": "tra",
+    "description": "🫖 Trà Thức uống thanh mát được pha từ những lá trà tươi chọn lọc, mang đến hương vị tự nhiên và dịu nhẹ. Thích hợp để giải nhiệt và thư giãn sau bữa ăn."
   },
   {
     "id": "2",
-    "title": "Hạt trộn Captian Pet cho cún 2.5Kg trộn phô mai, thịt bò, cá hổi",
-    "src": "image/dog-food-2.jpg",
-    "price": "175000",
-    "category": "dog-food",
-    "description": "Dành cho chó con dưới 1 tuổi. Không chứa ngũ cốc, không gây dị ứng. Được chế biến từ thịt cừu, bột gà, gạo lứt, yến mạch. Giúp giảm bớt mùi phân và mùi cơ thể. Giúp tăng cường sức đề kháng, phòng ngừa bệnh tật. Làm đẹp da, đẹp lông. Cung cấp chất dinh dưỡng cần thiết cho sự tăng trưởng của chó con. Giúp tăng cường sức khỏe đường ruột, tiêu hóa tốt, ngừa tiêu chảy"
+    "title": "Trà chanh",
+    "src": "images/z7120119081802_6acc94b122b041586c8741e2510422bd.jpg",
+    "price": "30000",
+    "category": "tra",
+    "description": "🫖 Trà Thức uống thanh mát được pha từ những lá trà tươi chọn lọc, mang đến hương vị tự nhiên và dịu nhẹ. Thích hợp để giải nhiệt và thư giãn sau bữa ăn"
   },
   {
     "id": "3",
-    "title": "Thức ăn hạt captain 5kg cho cún cưng",
-    "src": "image/dog-food-3.jpg",
-    "price": "111000",
-    "category": "dog-food",
-    "description": "DINH DƯỠNG ĐẦY ĐỦ VÀ CÂN BẰNG - Thức ăn cho chó PEDIGREE được làm từ những nguyên liệu chất lượng để chó của bạn có được dinh dưỡng đầy đủ và cân bằng. DA KHỎE, LÔNG MƯỢT - Thức ăn khô dành cho chó được chế biến bằng sự kết hợp độc đáo của axit linoleic và kẽm, cung cấp cho chó của bạn đủ dưỡng chất để có làn da khỏe mạnh và bộ lông bóng mượt trong 6 tuần . CƠ BẮP KHỎE MẠNH - Thức ăn khô cho chó PEDIGREE được làm từ protein chất lượng cao có chứa thịt và ngũ cốc dinh dưỡng giúp chó của bạn có cơ bắp chắc khỏe. HỆ TIÊU HÓA TỐT - Các thành phần trong thức ăn cho chó PEDIGREE đã được xây dựng một cách khoa học tốt cho hệ tiêu hóa, với chất xơ từ rau và ngũ cốc. RĂNG VÀ XƯƠNG CHẮC KHỎE - Với thức ăn cho chó trưởng thành PEDIGREE này, bạn có thể chắc chắn rằng chó cưng của bạn đang nhận được lượng canxi và phốt pho cần thiết để có bộ xương và răng chắc khỏe. ĐƯỢC ĐỒNG HÀNH BỞI WALTHAM - Thức ăn cho chó PEDIGREE được đồng hành bởi viện dinh dưỡng vật nuôi toàn cầu WALTHAM"
+    "title": "Mỳ cay kim chi",
+    "src": "images/mycaykimchi.jpg",
+    "price": "80000",
+    "category": "mycay",
+    "description": "🌶️ Mì cay Món ăn nổi tiếng Hàn Quốc với sợi mì dai ngon, hòa quyện cùng nước súp cay nồng, đậm đà. Topping phong phú như hải sản, bò, xúc xích, và rau củ tươi tạo nên hương vị hấp dẫn khó quên."
   },
   {
     "id": "4",
-    "title": "Thức Ăn Dạng Hạt Khô Cho Chó Lớn PEDIGREE Vị Gà Và Rau Củ, 1.5kg",
-    "src": "image/dog-food-4.jpg",
-    "price": "111000",
-    "category": "dog-food",
-    "description": "DINH DƯỠNG ĐẦY ĐỦ VÀ CÂN BẰNG - Thức ăn cho chó PEDIGREE được làm từ những nguyên liệu chất lượng để chó của bạn có được dinh dưỡng đầy đủ và cân bằng. DA KHỎE, LÔNG MƯỢT - Thức ăn khô dành cho chó được chế biến bằng sự kết hợp độc đáo của axit linoleic và kẽm, cung cấp cho chó của bạn đủ dưỡng chất để có làn da khỏe mạnh và bộ lông bóng mượt trong 6 tuần . CƠ BẮP KHỎE MẠNH - Thức ăn khô cho chó PEDIGREE được làm từ protein chất lượng cao có chứa thịt và ngũ cốc dinh dưỡng giúp chó của bạn có cơ bắp chắc khỏe. HỆ TIÊU HÓA TỐT - Các thành phần trong thức ăn cho chó PEDIGREE đã được xây dựng một cách khoa học tốt cho hệ tiêu hóa, với chất xơ từ rau và ngũ cốc. RĂNG VÀ XƯƠNG CHẮC KHỎE - Với thức ăn cho chó trưởng thành PEDIGREE này, bạn có thể chắc chắn rằng chó cưng của bạn đang nhận được lượng canxi và phốt pho cần thiết để có bộ xương và răng chắc khỏe. ĐƯỢC ĐỒNG HÀNH BỞI WALTHAM - Thức ăn cho chó PEDIGREE được đồng hành bởi viện dinh dưỡng vật nuôi toàn cầu WALTHAM"
+    "title": "Mỳ cay kim chi bò",
+    "src": "images/mycaybo.png",
+    "price": "85000",
+    "category": "mycay",
+    "description": "🌶️ Mì cay Món ăn nổi tiếng Hàn Quốc với sợi mì dai ngon, hòa quyện cùng nước súp cay nồng, đậm đà. Topping phong phú như hải sản, bò, xúc xích, và rau củ tươi tạo nên hương vị hấp dẫn khó quên."
   },
   {
     "id": "5",
-    "title": "Thức ăn cho chó Bull pháp - DR. Glint - Túi 2kg",
-    "src": "image/dog-food-5.jpg",
-    "price": "200000",
-    "category": "dog-food",
-    "description": "Thức ăn dành cho dòng chó Bull pháp - DR.GLINT ♨️. Với công thức dinh dưỡng cân bằng đầy đủ: Thịt bò, thịt gà, sữa non dê, khoai tây tím, lòng đỏ trứng, nam việt quất, tảo xoắn, cà rốt, kim ngân hoa.... giúp: Hạn chế nước mắt. Ngăn ngừa rụng lông, làm sáng màu lông. Hỗ trợ tiêu hoá, giúp hệ tiêu hoá khoẻ mạnh Công thức muối thấp (hàm lượng muối ko quá 0.45%) không gây kích ứng da. Công nghệ sinh học phân tử nhỏ - Pyrolysis Technology được sử dụng trong sản xuất cùng thành phần cân bằng giúp giảm mùi hôi miệng, giảm mùi hôi cơ thể. Thành phần tảo xoắn và Lexithin cung cấp dinh dưỡng cho lông, giúp lông phát triển đẹp, mềm mại mượt mà"
+    "title": "Mỳ cay xuc xích",
+    "src": "images/mi-kim-chi-xuc-xich-ca-vien-01-a.jpg",
+    "price": "70000",
+    "category": "mycay",
+    "description": "🌶️ Mì cay Món ăn nổi tiếng Hàn Quốc với sợi mì dai ngon, hòa quyện cùng nước súp cay nồng, đậm đà. Topping phong phú như hải sản, bò, xúc xích, và rau củ tươi tạo nên hương vị hấp dẫn khó quên."
   },
   {
     "id": "6",
-    "title": "Bao 3kg - Hạt Cho Chó con Smartheart Power Pack",
-    "src": "image/dog-food-6.jpg",
-    "price": "220000",
-    "category": "dog-food",
-    "description": "Thức Ăn Cho Chó Hạt Smartheart Power Pack Puppy Dành Cho Chó Con dành riêng cho những chú chó thường xuyên hoạt động và muốn xây dựng khối cơ bắp nhờ nguồn đạm chất lượng, dồi dào. Loại hạt Smartheart Power Pack này phù hợp với nhiều giống chó như Pitbull, Bully, Becgie, Corgi, Rottweiler,... và nhiều giống chó khác. Nếu chó nhà bạn năng động và muốn xây dựng cơ bắp thì đây chính là loại hạt phù hợp nhất dành cho chú chó đấy ạ."
+    "title": "Trà sữa khoai môn",
+    "src": "images/z7120116759480_2028ae2e59b2f6b641735734802bf726.jpg",
+    "price": "39000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
   },
   {
     "id": "7",
-    "title": "Snack Que/Xương Gặm Sạch Răng Cho Chó Vị Sữa, Phô Mai DoggyMan 120g",
-    "src": "image/snack-dog-1.jpg",
-    "price": "52250",
-    "category": "dog-snack",
-    "description": "Ưu điểm các sản phẩm. Hương vị sữa giúp chó cưng. Sản phẩm có nguồn gốc từ thực vật giúp thú cưng dễ tiêu hóa. Giá trị dinh dưỡng cao với nhiều vitamin và khoáng chất. Phù hợp với dạng chó có kích thước nhỏ và chó già."
+    "title": "Trà sữa matcha",
+    "src": "images/z7120119013551_67cff7df46943bcffeb275f478e6666a.jpg",
+    "price": "39000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
   },
   {
     "id": "8",
-    "title": "[Gói 30 chiếc] Xương gặm làm sạch răng, thơm miệng cho chó",
-    "src": "image/snack-dog-2.jpg",
-    "price": "67000",
-    "category": "dog-snack",
-    "description": "Nguyên liệu chính bao gồm: Bột lúa mì, thịt gà, thịt bò, thịt heo, sữa, nước tinh khiết.... Xương gặm cho chó có tác dụng bổ sung Canxi, giúp xương chắc khỏe hơn. Ngoài ra, mùi vị rất hấp dẫn, kích thích sự thèm ăn của cún cưng. Làm sạch kẽ răng và lợi: Trong quá trình nhai, sản phẩm sẽ giúp kích thích nướu, răng, kiểm soát cao răng và giúp thú cưng luôn có hơi thở thơm mát. Giúp những chú chó nhà bạn không cắn phá linh tinh: Xương gặm như 1 món ăn vặt hàng ngày giúp chó cưng nhà bạn không buồn chán, không cắn phá đồ vật trong nhà, không bị đói và ăn uống lung tung. Xương gặm là 1 trong số những loại đồ ăn vặt thơm ngon, bổ dưỡng cho các bé và rất được ưa chuộng."
+    "title": "Trà sữa hạt dẻ",
+    "src": "images/z7120116777186_910bfb12d71b85e721b4e2e563980466.jpg",
+    "price": "40000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
   },
   {
     "id": "9",
-    "title": "[FOMULA MỚI/HÀNG CÔNG TY] GOODIES XƯƠNG GẶM ENERGY TREATS 125G/500G CHO CHÓ",
-    "src": "image/snack-dog-3.jpg",
-    "price": "135000",
-    "category": "dog-snack",
-    "description": "Sản phẩm cung cấp canxi cho chó. Được làm từ protein thực vật, phù hợp cho tất cả các giống và tuổi của con chó. Thành phần chất lượng cao, mùi vị hấp dẫn. Có 4 hình dạng (xương, que, xoắn, vuông) giúp chó có thể nhai gặm dễ dàng.Bánh thưởng Goodies có tác dụng làm sạch răng cho chó, khử mùi hôi miệng. Có 4 mùi vị là thịt cừu, diệp lục, gan và canxi."
+    "title": "Trà sữa kem phô mai",
+    "src": "images/tsphomai.jpg",
+    "price": "40000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
   },
   {
     "id": "10",
-    "title": "Xương gặm sạch răng thơm miệng cho chó nhiều dạng - vị bạc hà, cranberry 150g- QUỐC HƯNG VET",
-    "src": "image/snack-dog-4.jpg",
-    "price": "85000",
-    "category": "dog-snack",
-    "description": "Xương chăm sóc răng thơm miệng Altimate Pet Dental Chew với nhiều hình dạng và mùi vị sẽ khiến cho việc chăm sóc răng miệng cho cún trở nên dễ dàng và thú vị hơn. Thiết kế giúp lấy đi mảng bám đồ ăn sót lại trên và giữa các kẽ răng. Vị bạc hà, cranberry giúp giảm hôi miệng."
+    "title": "Kimbap thường",
+    "src": "images/z7120117734092_4c0d43cf4797b343f82e1a7b2c37cd28.jpg",
+    "price": "42000",
+    "category": "kimbap",
+    "description": "🍙 Kimbap Món cơm cuộn truyền thống Hàn Quốc, được cuộn khéo léo với cơm trắng, trứng, rau củ, xúc xích hoặc cá ngừ, phủ bên ngoài là lớp rong biển thơm lừng. Tiện lợi, ngon miệng và đầy đủ dinh dưỡng."
   },
   {
     "id": "11",
-    "title": "Xương gặm cho chó, xương chân bò sấy gặm sạch răng",
-    "src": "image/snack-dog-5.jpg",
-    "price": "68000",
-    "category": "dog-snack",
-    "description": " Xương có thể cho cún ăn hằng ngày vào các bữa chính hoặc bổ sung thêm ăn vặt vào các bữa phụ. Giúp làm sạch răng, hạn chế mảng bám cao răng và giảm mùi hôi miệng. Giúp ích cho thú cưng nhỏ mài răng hiệu quả. Xương bò có hàm lượng canxi cao, bổ sung canxi, giúp xương chắc khỏe cho mọi giống chó ở mọi độ tuổi. Kích thích vị giác của cún giúp thú cưng ăn ngon miệng hơn"
+    "title": "Kimbap chiên",
+    "src": "images/kimbapc.jpg",
+    "price": "49000",
+    "category": "kimbap",
+    "description": "🍙 Kimbap Món cơm cuộn truyền thống Hàn Quốc, được cuộn khéo léo với cơm trắng, trứng, rau củ, xúc xích hoặc cá ngừ, phủ bên ngoài là lớp rong biển thơm lừng. Tiện lợi, ngon miệng và đầy đủ dinh dưỡng."
   },
   {
     "id": "12",
-    "title": "Xương da bò cho Chó gặm sạch răng,bổ sung dinh dưỡng",
-    "src": "image/snack-dog-6.jpg",
-    "price": "45000",
-    "category": "dog-snack",
-    "description": " Đặc biệt hiệu quả với những con chó có thói quen gặm linh tinh đồ trong nhà.Chiếc xương ống da bò: làm bằng da bò tự nhiên, dạng snack cứng có thể ăn được giúp thú cưng của bạn vui chơi, đồng thời bảo vệ răng và nướu. Chất liệu: Da bò 100%"
+    "title": "Tokkbokki",
+    "src": "images/z7120117636133_37a59aae72820d6f6492f8a0d34391d5.jpg",
+    "price": "70000",
+    "category": "tokkbokki",
+    "description": "🍲 Tokkbokki Bánh gạo Hàn Quốc mềm dẻo hòa quyện cùng sốt cay ngọt đặc trưng. Món ăn đường phố được yêu thích với hương vị đậm đà, hấp dẫn mọi lứa tuổi.lớp rong biển thơm lừng. Tiện lợi, ngon miệng và đầy đủ dinh dưỡng."
   },
   {
     "id": "13",
-    "title": "[MADE IN THAILAND] XƯƠNG GẶM VÂY CÁ THẬT CHO CHÓ",
-    "src": "image/snack-dog-7.jpg",
-    "price": "65999",
-    "category": "dog-snack",
-    "description": " Chondrointin Sulfate giúp cho cơ bắp chó khỏe mạnh hơn. Calcium giúp xương chó chắc khỏe hơn. Omega 3, 6, 9 và Collagen giúp làm đẹp da lông. Giàu Protein. Ít béo. Làm sạch răng tự nhiên bằng cách loại bỏ cao răng và mảng bám."
-  },
-  {
-    "id": "14",
-    "title": "Doremiu- Lẻ 1c Xương xoắn 4cm - Xương nhai sạch răng bổ sung canxi cho chó dưới 5kg bánh thưởng cho chó",
-    "src": "image/snack-dog-8.jpg",
-    "price": "2993",
-    "category": "dog-snack",
-    "description": "Đặc điểm nổi bật của xương gặm dạng xoắn hỗ trợ sạch răng cho chó. Xương gặm hỗ trợ sạch răng cho chó giúp làm giảm mảng bám tích tụ ở răng của cún, hỗ trợ phòng tránh các vấn đề về răng miệng và giúp cún của bạn có hàm răng chắc khỏe hơn. Đặc biệt sản phẩm có nhiều loại, hình dáng, kích thước khác nhau giúp tăng thêm sự phù hợp với các chủng loại và độ tuổi của cún cưng. Sản phẩm còn giúp cho cún cưng của bạn có thêm đồ chơi, giúp cún không cắn phá đồ đạc trong nhà, giúp cún nhà bạn giải trí và vui đùa vui vẻ hơn.."
-  },
-  {
-    "id": "15",
-    "title": "4kg Hạt Mèo con Mother & Babycat Royal Canin Mèo mẹ Mèo con dưới 12th tuổi thức ăn hạt cho Mèo nhập Pháp",
-    "src": "image/cat-food-1.jpg",
-    "price": "2993",
-    "category": "cat-food",
-    "description": "Đối Tượng Sử Dụng: Royal Canin Mother & Babycat được thiết kế chuyên biệt cho mèo mẹ đang trong giai đoạn mang thai, cho con bú và các bé mèo từ 1-4 tháng tuổi. Công thức cân bằng giữa protein, chất béo và carbohydrate đem lại hương vị thơm ngon, kích thích khẩu vị, đồng thời bảo đảm sự phát triển khỏe mạnh cho mèo mẹ và mèo con. Hỗ Trợ Hệ Miễn Dịch: Royal Canin Mother & Babycat chứa các prebiotics và hệ dưỡng chất chống oxy hóa như vitamin E, C, taurine và lutein giúp tăng cường hệ miễn dịch, đặc biệt quan trọng trong giai đoạn từ 4-12 tuần tuổi khi hệ miễn dịch của mèo con đang dần hoàn thiện."
-  },
-  {
-    "id": "16",
-    "title": "[QUÀ TẶNG MIỄN PHÍ] Hạt Mèo Bite of Wild Cao Cấp 1kg Không Độn Ngũ Cốc Có Topping Thịt Sấy Cá Hồi, Gà, Thịt Động vật",
-    "src": "image/cat-food-2.jpg",
-    "price": "239000",
-    "category": "cat-food",
-    "description": "Từ xa xưa, Mèo là loài động vật săn bắt và ăn thịt. Chúng có đường tiêu hoá ngắn, tính axit cao, không thích hợp để tiêu hoá carbohydrate (carbohydrate là các chất thường có trong ngũ cốc, các loại hạt, rau củ...) mà chỉ phù hợp với việc tiêu hoá protein (có chủ yếu trong thịt, cá, hải sản...). Khi săn mồi, chúng sẽ ăn cả con mồi bao gồm da, thịt, xương, lông, móng, nội tạng... mà không chừa lại 1 bộ phận gì. Hiểu được điều đó, PETOUR mang đến dòng sản phẩm mới, có thành phần độc đáo mà ít loại hạt nào trên thị trường hiện nay có thể đáp ứng được, đó là mô phỏng lại thức ăn ngoài môi trường tự nhiên của mèo."
-  },
-  {
-    "id": "17",
-    "title": "Thức ăn cho mèo Zoi Cat 1kg 😻 Little King pet shop 😻 Đồ ăn Hạt cho mèo lớn ZoiCat túi 1kg",
-    "src": "image/cat-food-3.jpg",
-    "price": "47000",
-    "category": "cat-food",
-    "description": "Công thức natri thấp giảm nguy cơ mắc bệnh huyết áp, tim mạch, thận. Bảo vệ răng và nướu nhờ giảm nguy cơ gây nên tình trạng mảng bám dính răng và cao răng khi nhai thức ăn. Chăm sóc da mạnh khỏe và bộ lông óng mượt với axit béo Omega 3 và Omega 6 và kẽm, Biotin. Chăm sóc,  bảo vệ thị lực khỏe mạnh với Taurine. Tăng cường hệ miễn dịch với Selen và Vitamin E. Giúp xương và răng chắc khỏe nhờ cân bằng lượng Can xi, Phốt pho và Vitamin D"
-  },
-  {
-    "id": "18",
-    "title": "Thức ăn cho mèo con WHISKAS dạng hạt vị cá biển, 1,1 kg",
-    "src": "image/cat-food-4.jpg",
-    "price": "125000",
-    "category": "cat-food",
-    "description": " Mèo con cần thức ăn có công thức đặc biệt để hỗ trợ sự tăng trưởng và phát triển nhanh chóng của chúng. Công thức đầy đủ chất dinh dưỡng của WHISKAS Junior đảm bảo rằng mèo con của bạn hấp thu được tất cả các chất dinh dưỡng cần thiết, ở dạng mà dạ dày nhỏ của chúng có thể xử lý, đồng thời thỏa mãn vị giác của chúng với hương vị thơm ngon."
-  },
-  {
-    "id": "19",
-    "title": "Thức ăn cho mèo - 2 KG hạt nhỏ YUMI thơm ngon bổ dưỡng vị cá hồi",
-    "src": "image/cat-food-5.jpg",
-    "price": "128000",
-    "category": "cat-food",
-    "description": "Tăng cường sự phát triển trí não. DHA (từ dầu cá) và Colin (từ celithin) tăng cường sự phát triển trí não và chức năng hệ thần kinh.."
-  },
-  {
-    "id": "20",
-    "title": "[Hoả tốc]Hạt Cat’s Eye bao nguyên seal 1,5kg cho mèo con, mèo trưởng thành",
-    "src": "image/cat-food-6.jpg",
-    "price": "120000",
-    "category": "cat-food",
-    "description": "Vitamin A và Tautin giúp cho đối mắt sang khỏe, cải thiện thị lực.- Đặc biệt với có thêm hạt lanh và cá cung cấp chất béo omega, góp phần cải thiện hệ miễn dịch, hệ tiêu hóa, tối đa hóa tỉ lệ hấp thụ thức ăn,giảm tối thiểu lượng phân đào thải và giảm mùi phân thải ra.---THÀNH PHẦN CHÍNH:Chất đạm thô: Trên 31.5%Chất béo: Trên 12.5%Chất xơ: Dưới 4.0%Chất tro: Dưới 12.0%Canxi : Dưới 1.0% - 2.0%Photpho: Trên 1.60%---CÔNG DỤNG:- Giúp cho hệ tiêu hóa tốt hấp thụ tối đa chất dinh dưỡng.- Cải thiện hệ thống miễn dịch và giúp cho Mèo nhà Bạn ăn ngon miệng hơn.- Giảm lượng rụng lông giúp mèo có làn da khỏe, lông bóng mượt.-Đặc biệt làm giảm tỷ lệ lông vón cục trong hệ tiêu hóa"
-  },
-  {
-    "id": "21",
-    "title": "Hạt Royal Canin Indoor 27 Cho Mèo Trưởng Thành Nuôi Trong Nhà",
-    "src": "image/cat-food-7.jpg",
-    "price": "125000",
-    "category": "cat-food",
-    "description": "ROYAL CANIN hỗ trợ sức khoẻ của mèo bằng cách cung cấp dinh dưỡng chính xác dựa trên sự hiểu biết đúng đắn về các nhu cầu cụ thể của mèo với hơn 40 năm nghiên cứu. Mèo sống trong nhà có lối sống ít vận động, nhu cầu năng lượng thấp hơn và nguy cơ béo phì cao hơn."
-  },
-  {
-    "id": "22",
-    "title": "Hạt Nutrience SubZero Cho Mèo Mọi Độ Tuổi (Nhập khẩu Canada)",
-    "src": "image/cat-food-8.jpg",
-    "price": "159000",
-    "category": "cat-food",
-    "description": "Sản phẩm Nutrience Subzero Fraser Valley cho Mèo sử dụng các nguồn nguyên liệu tự nhiên tươi sống của Canada như thịt gà tây, thịt gà cao cấp Canada, heo rừng, cá biển đại dương và hạt thịt gà tươi sấy lạnh để cho ra hương vị tuyệt hảo có thể khiến cho những chú mèo cưng khó tính nhất cũng phải thèm ăn.."
-  },
-  {
-    "id": "23",
-    "title": "Hạt Cho Mèo Lớn Anh Lông Ngắn Royal Canin British Shorthair",
-    "src": "image/cat-food-9.jpg",
-    "price": "144000",
-    "category": "cat-food",
-    "description": "Hạt Royal Canin British Shorthair Anh Lông Ngắn có hàm lượng protein vừa đủ và các vitamin và khoáng chất cân bằng hỗ trợ sự phát triển của cơ bắp và xương khỏe mạnh cho sự phát triển lành mạnh lâu dài của giống mèo Anh lông ngắn. Thêm vào đó, hàm lượng L-carnitine phong phú giúp quá trình chuyển hóa chất béo tốt cho sức khỏe cộng với protein dễ tiêu (L.I.P. *) và prebiotics hỗ trợ cân bằng sức khỏe đường ruột."
-  },
-  {
-    "id": "24",
-    "title": "Combo 30 gói Pate CHO MÈO Mix vị, mỗi gói 100 gram",
-    "src": "image/cat-pate-1.jpg",
-    "price": "210000",
-    "category": "cat-pate",
-    "description": "Pate được làm từ thịt và gan. Bao gồm Taurine + omega 3, Vitamin E và Prebiotic.Sản phẩm với hương vị thơm ngon, bổ sung dưỡng chất bảo vệ sức khỏe và tăng cảm giác thèm ăn cho mèo."
-  },
-  {
-    "id": "25",
-    "title": "Pate Meowcat Cho Mèo Thịt Đỏ Cá Ngừ Mix Nhiều Vị Gói 70g",
-    "src": "image/cat-pate-2.jpg",
-    "price": "9900",
-    "category": "cat-pate",
-    "description": "Pate Meowcat Cho Mèo Thịt Đỏ Cá Ngừ Mix Nhiều Vị Gói 70g"
-  },
-  {
-    "id": "26",
-    "title": "Thức Ăn Dạng Sốt Cho Mèo Trưởng Thành WHISKAS Mix 6 Vị - 80g (24 Túi)",
-    "src": "image/cat-pate-3.jpg",
-    "price": "300000",
-    "category": "cat-pate",
-    "description": "100% Dinh Dưỡng Hoàn Thiện & Cân Bằng: Thức ăn dạng sốt cho mèo WHISKAS cung cấp 100% nhu cầu dinh dưỡng hàng ngày cho bé mèo trưởng thành, đảm bảo tối ưu sức khỏe và tinh thần cho chúng.Nguyên Liệu Chất Lượng Cao: Được chế biến từ những nguyên liệu chất lượng cao, bao gồm cả cá thật và thịt gà thật, thức ăn dạng sốt cho mèo của chúng tôi mang đến dinh dưỡng và hương vị đặc biệt cho chú mèo của bạn. Da & Lông Bóng Khỏe: Thức ăn cho mèo WHISKAS rất giàu kẽm kết hợp với axit béo omega 3 và omega 6 giúp bé mèo có làn da và bộ lông bóng mượt, khỏe mạnh.Năng Động & Tràn Đầy Năng Lượng: Với 41 dưỡng chất thiết yếu, thức ăn  cho mèo WHISKAS hỗ trợ sức khoẻ tổng thể và giúp mèo tràn đầy năng lượng    "
-  },
-  {
-    "id": "27",
-    "title": "[COMBO 10 bịch] Thức Ăn Cho Mèo Pate WANPY 80g Nhiều Vị - Thức Ăn Dinh Dưỡng Cho Mèo - Meow Pet Shop",
-    "src": "image/cat-pate-4.jpg",
-    "price": "96500",
-    "category": "cat-pate",
-    "description": "Pate cho mèo Wanpy cung cấp cho các bé mèo những giá trị về dinh dưỡng như:  Cung cấp DHA, tăng cường hệ miễn dịch, nuôi dưỡng lông. Với thành phần được làm từ thịt cá hồi, thịt ức gà, cung cấp vitamin A,B2,B3, B5,D3,E.. Bổ sung nước cho cơ thể mèo, phòng ngừa các bệnh sỏi thận, bàng quang. Bổ sung Prebiotic giúp cơ thể hấp thụ Canxi, tăng tốc độ chuyển hóa thực phẩm, giữ cho đường ruột luôn khỏe mạnh. Bổ sung Vitamin A cho đôi mắt, hệ miễn dịch, chăm sóc da."
-  },
-  {
-    "id": "28",
-    "title": "[Tặng kèm gói dùng thử] MRVET Hạt Cho Mèo 1kg Thức Ăn Cho Mèo Ở Mọi Lứa Tuổi Với 30% Protein Đa Dạng Topping Thịt Gà",
-    "src": "image/cat-pate-5.jpg",
-    "price": "129000",
-    "category": "cat-pate",
-    "description": "- Thịt gà và thịt bò với topping thịt gà, gan gà, lòng đỏ trứng sấy khô. Thịt gà là thực phẩm ít gây dị ứng, trong khi thịt bò có thể cung cấp năng lượng cao hơn. 30% protein thô: Đáp ứng nhu cầu tăng trưởng của mèo."
-  },
-  {
-    "id": "29",
-    "title": "PATE KING PET CHO CHÓ MÈO MỌI LỨA TUỔI ĐỦ VỊ",
-    "src": "image/cat-pate-6.jpg",
-    "price": "35500",
-    "category": "cat-pate",
-    "description": "Pate King's Pet cho Chó Mèo- 6 vị"
-  },
-  {
-    "id": "30",
-    "title": "Pate lon cho mèo mọi lứa tuổi - pate Luscious cho chó - thức ăn cho thú cưng (80gr) ",
-    "src": "image/cat-pate-7.jpg",
-    "price": "12900",
-    "category": "cat-pate",
-    "description": "Pate đóng hộp Luscious mang đến sự đa dạng tuyệt vời vào chế độ ăn của những bé mèo, cũng như là nguồn cung cấp dinh dưỡng bổ sung trực tiếp. Những miếng cá ngừ tươi xé nhuyễn cùng thịt tôm, thịt gà được hòa quyện, tất cả đều được nấu chín và ninh nhừ trong nước sốt thơm ngon. Nguồn gốc thành phần đến từ tự nhiên, lành mạnh, không chứa màu nhân tạo, hương vị và chất bảo quản. Tất cả đều từ 100% nguyên liệu tươi mới nhất, chế biến với công nghệ cao để giữ lại nguyên vẹn hương vị và giá trị dinh dưỡng cho thú cưng"
-  },
-  {
-    "id": "31",
-    "title": "Balo phi hành gia vận chuyển chó mèo LunaPet BL01 - balo trong suốt vận chuyển chó mèo dễ thương TẶNG kèm tấm lót ",
-    "src": "image/balo-1.jpg",
-    "price": "138000",
-    "category": "balo",
-    "description": "Balo được thiết kế nhiều lỗ thông khí và lưới cho thú cưng 1 không gian thoải mái. Mặt trước bằng nhựa trong suốt giúp thú cưng dễ dàng tương tác với thế giới bên ngoài. Đai đeo có thể tăng giảm, cùng đai ngực cố định tiện lợi khi di chuyển. "
-  },
-  {
-    "id": "32",
-    "title": "Balo Hello cat pro cho chó mèo có cửa hông, chống nước, nhiều màu KANGPET PW0001",
-    "src": "image/balo-2.jpg",
-    "price": "135000",
-    "category": "balo",
-    "description": "Balo Hello cat pro cho chó mèo có cửa hông, chống nước, nhiều màu KANGPET PW0001. Chất liệu: PVC,hồngVải, nhựa . Kích thước:  37x32x28 cm (dài x rộng x cao). Cân nặng : 1kg2 "
-  },
-  {
-    "id": "33",
-    "title": "[ MẪU MỚI] Lồng Hàng Không Dành Cho Chó Mèo, Lồng Vận Chuyển Thú Cưng Đi Xa Tiện Lợi Size 48CM, 58CM, 66CM",
-    "src": "image/balo-3.jpg",
-    "price": "187000",
-    "category": "balo",
-    "description": "Phù hợp với tiêu chuẩn vận chuyển hàng không máy bay, tàu hoả, ôtô, ràng sau xe moto....Chất liệu cao cấp: tay xách êm, bền màu,tinh tế, tạo độ bền cao cho sản phẩm. Cửa lồng bằng thép chống gỉ. không gây ảnh hưởng cho Pet cưng của bạn."
-  },
-  {
-    "id": "34",
-    "title": "Balo Phi hành gia cho chó mèo - Ba lô vận chuyển chó mèo nhiều màu sắc",
-    "src": "image/balo-4.jpg",
-    "price": "350000",
-    "category": "balo",
-    "description": "Tên sản phẩm: Balo Phi hành gia cho chó mèo - Ba lô vận chuyển chó mèo nhiều màu sắc. Chất liệu: nhựa cao cấp PVC Khử mùi thoáng khí. Kích thước: dài 34 x rộng 25 x Cao 42cm"
-  },
-  {
-    "id": "35",
-    "title": "Ổ Đệm Cho Chó Mèo, Giường Chó Mèo Êm Ái ",
-    "src": "image/pet-bed-1.jpg",
-    "price": "89000",
-    "category": "pet-bed",
-    "description": " Kích thước ổ đệm mèo: 40x44x34cm( Ngang*Sâu*Cao) với các mẫu: Khủng long, Gấu nâu, Gấu hồng, Thỏ hồng, Ốc sên, Mèo xám, Bơ xanh. Đệm vuông cho chó với 3 kích thước: S(45x30x15cm), M(50x35x15cm, L(60x40x20cm) và 3 màu sắc Nâu, Đen, Xám"
-  },
-  {
-    "id": "36",
-    "title": "Giường Cho Chó Thú Cưng Chó Sofa Tổ Dày Thảm Ngủ Chó Lớn Golden Retriever Satsuma Edge Shepherd Dog Nest Mùa Đông Ấm Áp",
-    "src": "image/pet-bed-2.jpg",
-    "price": "370400",
-    "category": "pet-bed",
-    "description": "Thể loại: đồ dùng cho thú cưng. Loại sản phẩm: Nệm thú cưng. Giúp thú cưng ngủ ngon hơn. Vật liệu: Vải lanh như vải, bông PP"
-  },
-  {
-    "id": "37",
-    "title": "💕[Mới về]💕 Nhà, Chuồng Nhựa Cao Cấp Ngoài Trời Cho Chó Mèo Thú Cưng, Kiểu Dáng Mái Vòm Có Cửa Sổ Trời Và Cửa Sắt",
-    "src": "image/pet-bed-3.jpg",
-    "price": "985000",
-    "category": "pet-bed",
-    "description": "Tên sản phẩm: Nhà, chuồng nhựa chó mèo thú cưng ngoài trời mái vòm mã 403, 419 có cửa sắt và cửa sổ trời"
-  },
-  {
-    "id": "38",
-    "title": "DORRIKEY Ổ đệm lông cho mèo chó thú cưng/Đệm lông hình tròn cho chó mèo LI0196",
-    "src": "image/pet-bed-4.jpg",
-    "price": "79000",
-    "category": "pet-bed",
-    "description": "Giường cho thú cưng thoải mái cho chó và mèo, rất bông và mềm. Chó và mèo thích nó. Kích thước 60 cm, 40 cm. Được làm từ chất liệu vải tốt, mềm mại, bền đẹp, sờ vào thoải mái, chắc chắn như trẻ em."
-  },
-  {
-    "id": "39",
-    "title": "Hạt Royal Canin Mini Adult cho chó trưởng thành",
-    "src": "image/product-sale-1.png",
-    "price": "180000",
-    "category": "product-sale",
-    "description": "Những chú chó có kích cỡ nhỏ chỉ cần những loại thức ăn có thiết kế nhỏ, tuy nhiên chúng lại cần nhiều năng lượng hơn giống chó lớn vì chúng có thời kỳ tăng trưởng ngắn hơn và mạnh mẽ hơn. Thêm vào đó, tuổi thọ trung bình của giống chó nhỏ cao hơn giống chó lớn, chính vì vậy chúng khá khắc khe trong việc ăn uống. Công thức của ROYAL CANIN Mini Adult được thiết kế để đáp ứng các nhu cầu dinh dưỡng đặc thù của giống chó nhỏ trong độ tuổi dưới 10 tháng."
-  },
-  {
-    "id": "40",
-    "title": "Bánh thưởng mềm có nhân gói 8 thanh Churu Bee cho chó",
-    "src": "image/product-sale-2.png",
-    "price": "79000",
-    "category": "product-sale",
-    "description": "- Xương gặm và bánh thưởng không được cho ăn vượt quá 10% khẩu phần ăn hằng ngày của cún. Luôn chuẩn bị sẵn nước sạch cho cún. Xương da bò không nên cho ăn thường xuyên, không thích hợp với cún ăn nhanh hoặc nuốt trọng, các bé cún nhỏ hoặc cún già răng yếu. Nên lựa chọn xương da bò có kích thước lớn hơn độ rộng xương hàm của cún để tránh bị mắc nghẹn. Để đảm bảo an toàn, chủ nuôi cần quan sát trong lúc thú cưng gặm các loại xương cứng."
-  },
-  {
-    "id": "41",
-    "title": "DORRIKEY Bánh thưởng cho mèo",
-    "src": "image/product-sale-3.png",
-    "price": "40000",
-    "category": "product-sale",
-    "description": "Cho mèo cưng ăn 8-10 / bánh một ngày. Dùng trực tiếp. Ăn ngay sau khi mở gói hoặc trộn với hạt để nâng cao giá trị dinh dưỡng cho bữa ăn , đóng kín sau khi sử dụng. Giữ nơi khô ráo thoáng mát. Tránh để nơi chiếu ánh nắng trực tiếp hoặc nơi có nhiệt độ cao"
-  },
-  {
-    "id": "42",
-    "title": "DORRIKEY Kềm cắt móng cho thú cưng tiện dụng",
-    "src": "image/product-sale-4.png",
-    "price": "20000",
-    "category": "product-sale",
-    "description": "Bộ cắt móng chân chó mèo thích hợp cho vật nuôi nhỏ, vừa và lớn. Bộ kiềm cắt móng chó có chất liệu thép không gỉ, chống ăn mòn, chịu nhiệt độ cao, độ bền cao, sắc nét và bền. Bấm móng chân cho chó có thiết kế vách ngăn ngăn da không bị cắt quá sâu, ngăn móng tay bắn tung tóe, tổn thương mắt người chủ. Kìm bấm móng chân cho chó có tay cầm chống trượt, chức năng massage chống trượt chống trượt, không dị ứng. Kiềm cắt móng cán thẳng thiết kế lò xo, phục hồi nhanh, dễ sử dụng"
-  },
-  {
-    "id": "43",
-    "title": "Tông đơ tỉa lông giảm tiếng ồn có đèn chiếu Pakeway cho chó mèo",
-    "src": "image/product-new-1.png",
-    "price": "230000",
-    "category": "product-new",
-    "description": "Tông đơ cạo bàn chân cho chó mèo có đèn LED, hạn chế tiếng ồn - Máy tỉa lông thú cưng full phụ kiện nhập khẩu cao cấp. Tất cả các dòng chó mèo lông dài, ngắn, dầy, mỏng đều cắt được hết nhé. Bất kể các dòng giống gì đều cắt được luôn ạ."
-  },
-  {
-    "id": "44",
-    "title": " Thức ăn cho mèo Royal Canin - 2kg túi nguyên",
-    "src": "image/product-new-2.png",
-    "price": "480000",
-    "category": "product-new",
-    "description": "Thức Ăn Hạt Royal Canin Mother & Baby Cat 34 Cho Mèo Mẹ Và Mèo Con. MOTHER & BABY CAT là sản phẩm thức ăn khô dành cho mèo con dưới 4 tháng tuổi  và mèo mẹ mang thai của Royal Canin, Pháp. "
-  },
-  {
-    "id": "45",
-    "title": " Pate Mèo Royal Canin Mother Babycat Cho Mèo Mẹ & Mèo Con (Lon 195g)",
-    "src": "image/product-new-3.png",
-    "price": "55000",
-    "category": "product-new",
-    "description": "Công thức FELINE HEALTH NUTRITION ™ tạo nên thức ăn ướt được thiết kế trên nhu cầu dinh dưỡng và sở thích bản năng của mèo. Công thức này được tạo ra với sự cân bằng tối ưu về protein, chất béo và tinh bột carbohydrate nhằm mang đến sự ngon miệng và bổ sung dinh dưỡng hoàn hảo cho thực phẩm khô cao cấp dành cho mèo của ROYAL CANIN. "
-  },
-  {
-    "id": "46",
-    "title": "Bàn cào móng DORRIKEY hình tròn chất lượng cao cho mèo cưng",
-    "src": "image/product-new-4.png",
-    "price": "66000",
-    "category": "product-new",
-    "description": " Bàn Cào Móng Size Lớn Nhựa Cao Cấp Chống Trầy Xước Cho Mèo BCM001 - Tặng kèm cỏ bạc hà CANIP - MIAOCAT"
-  },
-  {
-    "id": "47",
-    "title": "Tông đơ tỉa lông giảm tiếng ồn có đèn chiếu Pakeway cho chó mèo",
-    "src": "image/product-restock-1.png",
-    "price": "230000",
-    "category": "product-restock",
-    "description": "Tông đơ cạo bàn chân cho chó mèo có đèn LED, hạn chế tiếng ồn - Máy tỉa lông thú cưng full phụ kiện nhập khẩu cao cấp. Tất cả các dòng chó mèo lông dài, ngắn, dầy, mỏng đều cắt được hết nhé. Bất kể các dòng giống gì đều cắt được luôn ạ."
-  },
-  {
-    "id": "48",
-    "title": " Thức ăn cho mèo Royal Canin - 2kg túi nguyên",
-    "src": "image/product-restock-2.png",
-    "price": "480000",
-    "category": "product-restock",
-    "description": "Thức Ăn Hạt Royal Canin Mother & Baby Cat 34 Cho Mèo Mẹ Và Mèo Con. MOTHER & BABY CAT là sản phẩm thức ăn khô dành cho mèo con dưới 4 tháng tuổi  và mèo mẹ mang thai của Royal Canin, Pháp. "
-  },
-  {
-    "id": "49",
-    "title": " Pate Mèo Royal Canin Mother Babycat Cho Mèo Mẹ & Mèo Con (Lon 195g)",
-    "src": "image/product-restock-3.png",
-    "price": "55000",
-    "category": "product-restock",
-    "description": "Công thức FELINE HEALTH NUTRITION ™ tạo nên thức ăn ướt được thiết kế trên nhu cầu dinh dưỡng và sở thích bản năng của mèo. Công thức này được tạo ra với sự cân bằng tối ưu về protein, chất béo và tinh bột carbohydrate nhằm mang đến sự ngon miệng và bổ sung dinh dưỡng hoàn hảo cho thực phẩm khô cao cấp dành cho mèo của ROYAL CANIN. "
-  },
-  {
-    "id": "50",
-    "title": "Bàn cào móng DORRIKEY hình tròn chất lượng cao cho mèo cưng",
-    "src": "image/product-restock-4.png",
-    "price": "66000",
-    "category": "product-restock",
-    "description": " Bàn Cào Móng Size Lớn Nhựa Cao Cấp Chống Trầy Xước Cho Mèo BCM001 - Tặng kèm cỏ bạc hà CANIP - MIAOCAT"
+    "title": "Set lẩu to",
+    "src": "images/setlau.jpg",
+    "price": "150000",
+    "category": "lau",
+    "description": "🍲 Set lẩu to Món ăn đặc trưng của Hàn Quốc, bao gồm nhiều loại thịt, hải sản và rau củ tươi ngon, được nấu trong nồi lẩu sôi sùng sục. Thưởng thức cùng với nước chấm đặc biệt, mang đến trải nghiệm ẩm thực tuyệt vời cho bạn và gia đình."
   }
 ]

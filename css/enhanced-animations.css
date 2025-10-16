@@ -1,0 +1,1272 @@
+/* ================================================
+   CHICKEN WAOO - Enhanced Animations & Effects
+   File: css/enhanced-animations.css
+   Tác giả: CapNguyenHieuNghia
+   Ngày: 2025
+   ================================================ */
+
+/* ============================================
+   1. KEYFRAME ANIMATIONS
+   ============================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ============================================
+   2. HERO BANNER STYLES
+   ============================================ */
+
+.hero-banner {
+  position: relative;
+  background: linear-gradient(135deg, #fcccb7 0%, #ffddc9 100%);
+  padding: 40px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(230,139,100,0.15) 0%, transparent 70%);
+  animation: float 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text-content {
+  flex: 1;
+  animation: slideIn 1s ease;
+}
+
+.hero-text-content h2 {
+  font-size: 48px;
+  color: #7c040b;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  animation: fadeInUp 0.8s ease;
+}
+
+.hero-text-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+  animation: fadeInUp 1s ease;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background: linear-gradient(135deg, #e68b64 0%, #cd6b6b 100%);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(230,139,100,0.4);
+  transition: all 0.3s ease;
+  animation: fadeInUp 1.2s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(230,139,100,0.6);
+}
+
+.hero-btn:active {
+  transform: translateY(-1px);
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  animation: fadeInUp 1s ease;
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  transition: transform 0.5s ease;
+}
+
+.hero-image-wrapper img:hover {
+  transform: scale(1.05) rotate(2deg);
+}
+
+/* ============================================
+   3. CATEGORY ITEMS ENHANCEMENTS
+   ============================================ */
+
+.section1-product ul li a {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.section1-product ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.8) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.section1-product ul li a:hover::before {
+  opacity: 1;
+  animation: ripple 0.6s ease;
+}
+
+.section1-product ul li a:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.section1-product ul li a:active {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.section1-product ul li span {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.section1-product ul li a:hover + span,
+.section1-product ul li:hover span {
+  color: #e68b64;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+/* ============================================
+   4. PRODUCT ITEMS ENHANCEMENTS - UPGRADED
+   ============================================ */
+
+/* Base Product Card Styling */
+.product-list .product-item {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  background: linear-gradient(145deg, #ffffff 0%, #fafafa 100%);
+  border: 2px solid transparent;
+}
+
+/* Gradient Border Effect on Hover */
+.product-list .product-item::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, #e68b64 0%, #cd6b6b 50%, #e68b64 100%);
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.product-list .product-item:hover::before {
+  opacity: 1;
+  animation: borderGlow 2s ease-in-out infinite;
+}
+
+@keyframes borderGlow {
+  0%, 100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
+}
+
+/* Overlay Gradient */
+.product-list .product-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(252,204,183,0.4) 0%, rgba(255,228,211,0.4) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.product-list .product-item:hover::after {
+  opacity: 1;
+}
+
+/* Hover Effect - Lift & Shadow */
+.product-list .product-item:hover {
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 
+    0 15px 40px rgba(230, 139, 100, 0.3),
+    0 5px 15px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.product-list .product-item:active {
+  transform: translateY(-10px) scale(1.01);
+}
+
+/* Product Image Container */
+.product-list .product-item img {
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  filter: brightness(1) saturate(1);
+}
+
+.product-list .product-item:hover img {
+  transform: scale(1.15) rotate(2deg);
+  filter: brightness(1.1) saturate(1.2);
+}
+
+/* Product Title Styling */
+.product-item-tittle {
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #333;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.product-list .product-item:hover .product-item-tittle {
+  color: #7c040b;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 4px rgba(124, 4, 11, 0.2);
+}
+
+/* Product Price Styling */
+.product-item-price {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 18px;
+  background: linear-gradient(135deg, #c00000 0%, #7c040b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+.product-list .product-item:hover .product-item-price {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Sale Badge - Enhanced */
+.product-item-sale {
+  animation: bounce 2s ease-in-out infinite;
+  background: linear-gradient(135deg, #ff4a4a 0%, #ff6b6b 100%);
+  box-shadow: 
+    0 4px 15px rgba(255, 74, 74, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.product-list .product-item:hover .product-item-sale {
+  animation: bounceIntense 1s ease-in-out infinite;
+  box-shadow: 
+    0 6px 20px rgba(255, 74, 74, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+@keyframes bounceIntense {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.05);
+  }
+}
+
+/* Add "New" Badge Style */
+.product-item-new {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Quick View Button (appears on hover) */
+.product-quick-view {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  opacity: 0;
+  background: linear-gradient(135deg, #e68b64 0%, #cd6b6b 100%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 3;
+  box-shadow: 0 4px 15px rgba(230, 139, 100, 0.4);
+}
+
+.product-list .product-item:hover .product-quick-view {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.product-quick-view:hover {
+  background: linear-gradient(135deg, #cd6b6b 0%, #e68b64 100%);
+  box-shadow: 0 6px 20px rgba(230, 139, 100, 0.6);
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* Wishlist Heart Icon */
+.product-wishlist {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  opacity: 0;
+  transform: scale(0.5);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-list .product-item:hover .product-wishlist {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product-wishlist:hover {
+  background: #ff4a4a;
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(255, 74, 74, 0.4);
+}
+
+.product-wishlist::before {
+  content: '♥';
+  font-size: 18px;
+  color: #ff4a4a;
+  transition: color 0.3s ease;
+}
+
+.product-wishlist:hover::before {
+  color: white;
+}
+
+.product-wishlist.active {
+  opacity: 1;
+  transform: scale(1);
+  background: #ff4a4a;
+}
+
+.product-wishlist.active::before {
+  color: white;
+  animation: heartBeat 0.5s ease;
+}
+
+@keyframes heartBeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Rating Stars */
+.product-rating {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 3;
+  display: flex;
+  gap: 3px;
+}
+
+.product-list .product-item:hover .product-rating {
+  opacity: 1;
+  bottom: 65px;
+}
+
+.product-rating span {
+  color: #ffc107;
+  font-size: 14px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Shimmer Effect on Load */
+.product-item-shimmer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 100%
+  );
+  animation: shimmer 2s infinite;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Discount Percentage Circle */
+.product-discount-circle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ff4a4a 0%, #ff6b6b 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  box-shadow: 
+    0 4px 15px rgba(255, 74, 74, 0.4),
+    inset 0 2px 0 rgba(255, 255, 255, 0.3);
+  z-index: 2;
+  animation: rotateDiscount 3s linear infinite;
+}
+
+@keyframes rotateDiscount {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.product-discount-circle .discount-value {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.product-discount-circle .discount-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Stock Status Badge */
+.product-stock-status {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.product-list .product-item:hover .product-stock-status {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.product-stock-status.in-stock {
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+
+.product-stock-status.low-stock {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 152, 0, 0.3);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.product-stock-status.out-of-stock {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(244, 67, 54, 0.3);
+}
+
+/* Hover Glow Effect */
+.product-list .product-item:hover {
+  box-shadow: 
+    0 0 0 1px rgba(230, 139, 100, 0.1),
+    0 15px 40px rgba(230, 139, 100, 0.3),
+    0 5px 15px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 0 30px rgba(230, 139, 100, 0.2);
+}
+
+/* Add to Cart Button Enhancement */
+.product-add-to-cart {
+  position: absolute;
+  bottom: -50px;
+  left: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #e68b64 0%, #cd6b6b 100%);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 3;
+  opacity: 0;
+  box-shadow: 0 4px 15px rgba(230, 139, 100, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.product-list .product-item:hover .product-add-to-cart {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.product-add-to-cart:hover {
+  background: linear-gradient(135deg, #cd6b6b 0%, #e68b64 100%);
+  box-shadow: 0 6px 20px rgba(230, 139, 100, 0.6);
+  transform: translateY(-2px);
+}
+
+.product-add-to-cart:active {
+  transform: translateY(0);
+}
+
+.product-add-to-cart::before {
+  content: '🛒';
+  font-size: 16px;
+}
+
+/* Product Tag/Category Label */
+.product-category-tag {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: rgba(124, 4, 11, 0.9);
+  color: white;
+  padding: 5px 15px 5px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  z-index: 2;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease;
+}
+
+.product-list .product-item:hover .product-category-tag {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ============================================
+   5. SECTION TITLES
+   ============================================ */
+
+.section-title-enhanced {
+  text-align: center;
+  font-size: 36px;
+  color: #7c040b;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  animation: fadeInUp 0.8s ease;
+}
+
+.section-title-enhanced::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #e68b64, #cd6b6b);
+  border-radius: 2px;
+}
+
+.section-title-enhanced::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #cd6b6b, #e68b64);
+  border-radius: 2px;
+}
+
+/* ============================================
+   6. DISCOUNT CARDS ENHANCEMENTS
+   ============================================ */
+
+.section2-discount-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.section2-discount-item::before {
+  content: '🎉';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  opacity: 0.3;
+  animation: pulse 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.section2-discount-item:hover {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.05) translateY(-5px);
+  background-color: var(--color-two);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.section2-discount-item:active {
+  transform: scale(1.02) translateY(-2px);
+}
+
+/* ============================================
+   7. LOADING ANIMATIONS (Staggered)
+   ============================================ */
+
+.product-item,
+.section1-product ul li,
+.section2-discount-item {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+/* Product items stagger */
+.product-list .product-item:nth-child(1) { animation-delay: 0.1s; }
+.product-list .product-item:nth-child(2) { animation-delay: 0.2s; }
+.product-list .product-item:nth-child(3) { animation-delay: 0.3s; }
+.product-list .product-item:nth-child(4) { animation-delay: 0.4s; }
+.product-list .product-item:nth-child(5) { animation-delay: 0.5s; }
+.product-list .product-item:nth-child(6) { animation-delay: 0.6s; }
+
+/* Category items stagger */
+.section1-product ul li:nth-child(1) { animation-delay: 0.1s; }
+.section1-product ul li:nth-child(2) { animation-delay: 0.2s; }
+.section1-product ul li:nth-child(3) { animation-delay: 0.3s; }
+.section1-product ul li:nth-child(4) { animation-delay: 0.4s; }
+.section1-product ul li:nth-child(5) { animation-delay: 0.5s; }
+.section1-product ul li:nth-child(6) { animation-delay: 0.6s; }
+
+/* Discount cards stagger */
+.section2-discount-item:nth-child(1) { animation-delay: 0.1s; }
+.section2-discount-item:nth-child(2) { animation-delay: 0.2s; }
+.section2-discount-item:nth-child(3) { animation-delay: 0.3s; }
+
+/* ============================================
+   8. HEADER ENHANCEMENTS
+   ============================================ */
+
+.header {
+  animation: slideIn 0.5s ease;
+}
+
+.header-section-one input:focus {
+  outline: none;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* Cart badge pulse */
+#quantity-in-cart {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ============================================
+   9. FOOTER ENHANCEMENTS
+   ============================================ */
+
+footer a {
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #e68b64;
+  transform: translateX(3px);
+}
+
+.footer-section2 .contact div[style*="display: flex"] a {
+  transition: all 0.3s ease;
+}
+
+.footer-section2 .contact div[style*="display: flex"] a:hover {
+  transform: scale(1.1);
+  color: #e68b64;
+}
+
+.footer-section2 .contact div[style*="display: flex"] img {
+  transition: all 0.3s ease;
+}
+
+.footer-section2 .contact div[style*="display: flex"]:hover img {
+  transform: rotate(360deg);
+}
+
+/* ============================================
+   10. BUTTON ENHANCEMENTS
+   ============================================ */
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* ============================================
+   11. SMOOTH SCROLL
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================
+   12. NOTIFICATION TOAST
+   ============================================ */
+
+.toast-notification {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  background: linear-gradient(135deg, #e68b64 0%, #cd6b6b 100%);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  z-index: 10000;
+  animation: slideInRight 0.5s ease, slideOutRight 0.5s ease 2.5s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.toast-notification.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ============================================
+   13. MENU SECTION (for future use)
+   ============================================ */
+
+.menu-section {
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #fff 0%, #fcccb7 100%);
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.menu-tab {
+  padding: 12px 30px;
+  background: white;
+  border: 2px solid #e68b64;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #cd6b6b;
+  transition: all 0.3s ease;
+}
+
+.menu-tab:hover,
+.menu-tab.active {
+  background: linear-gradient(135deg, #e68b64 0%, #cd6b6b 100%);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(230,139,100,0.4);
+}
+
+/* ============================================
+   14. RESPONSIVE STYLES - MOBILE
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Hero Banner Mobile */
+  .hero-content-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .hero-text-content h2 {
+    font-size: 32px;
+  }
+
+  .hero-text-content p {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+
+  .hero-image-wrapper img {
+    height: 250px;
+  }
+
+  /* Section Titles Mobile */
+  .section-title-enhanced {
+    font-size: 28px;
+  }
+
+  /* Categories Mobile */
+  .section1-product ul {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .section1-product ul li {
+    width: calc(33.333% - 10px);
+    min-width: 120px;
+  }
+
+  .section1-product ul li a {
+    width: 100%;
+    height: 110px;
+  }
+
+  .section1-product ul li a img {
+    width: 70px;
+  }
+
+  /* Product List Mobile - ENHANCED */
+  .product-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product-list .product-item {
+    width: calc(50% - 10px);
+    min-width: 150px;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: auto;
+    min-height: 280px;
+  }
+
+  /* Show buttons on mobile without hover */
+  .product-wishlist {
+    opacity: 0.7;
+    transform: scale(0.9);
+  }
+
+  .product-stock-status {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 9px;
+    padding: 3px 8px;
+  }
+
+  .product-add-to-cart {
+    opacity: 1;
+    bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .product-quick-view {
+    display: none; /* Hide quick view on mobile */
+  }
+
+  .product-rating {
+    opacity: 1;
+    bottom: 50px;
+    font-size: 12px;
+  }
+
+  .product-category-tag {
+    opacity: 1;
+    transform: translateX(0);
+    font-size: 9px;
+    padding: 4px 12px 4px 8px;
+  }
+
+  /* Reduce hover effects on mobile */
+  .product-list .product-item:hover {
+    transform: translateY(-8px) scale(1.01);
+  }
+
+  .product-list .product-item:hover img {
+    transform: scale(1.08);
+  }
+
+  /* Discount Cards Mobile */
+  .section2-discount {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+  }
+
+  .section2-discount-item {
+    margin: 0 !important;
+  }
+
+  .section2-discount-item::before {
+    font-size: 20px;
+  }
+
+  /* Product Item Spacing */
+  .product-list .product-item .product-item-tittle {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+
+  .product-list .product-item .product-item-price {
+    font-size: 16px;
+  }
+
+  .product-discount-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-discount-circle .discount-value {
+    font-size: 16px;
+  }
+
+  .product-discount-circle .discount-label {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra Small Mobile */
+  .hero-text-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-text-content p {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .hero-image-wrapper img {
+    height: 200px;
+  }
+
+  .section-title-enhanced {
+    font-size: 24px;
+  }
+
+  .section1-product ul li {
+    width: calc(50% - 10px);
+  }
+
+  .section1-product ul li a {
+    width: 100%;
+    height: 100px;
+  }
+
+  .section1-product ul li a img {
+    width: 60px;
+  }
+
+  /* Single column product list on very small screens */
+  .product-list .product-item {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .hero-banner {
+    padding: 30px 15px;
+    border-radius: 15px;
+  }
+
+  /* Adjust product card heights */
+  .product-list .product-item {
+    min-height: 320px;
+  }
+
+  .product-add-to-cart {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .product-wishlist {
+    width: 32px;
+    height: 32px;
+  }
+
+  .product-wishlist::before {
+    font-size: 16px;
+  }
+  .section2-discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ============================================
+   15. UTILITY CLASSES
+   ============================================ */
+
+.fade-in {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.slide-in-left {
+  animation: slideIn 0.6s ease forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.6s ease forwards;
+}
+
+.pulse-animation {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+.bounce-animation {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.rotate-animation {
+  animation: rotate 2s linear infinite;
+}
+
+/* ============================================
+   16. PERFORMANCE OPTIMIZATIONS
+   ============================================ */
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Hardware acceleration for smooth animations */
+.product-item,
+.section1-product ul li a,
+.hero-image-wrapper img,
+.section2-discount-item {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* ============================================
+   17. PRINT STYLES
+   ============================================ */
+
+@media print {
+  .hero-banner::before,
+  .section2-discount-item::before {
+    display: none;
+  }
+  
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ============================================
+   END OF FILE
+   Tổng số dòng: ~750+
+   ============================================ */

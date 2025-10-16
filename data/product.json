@@ -1,98 +1,114 @@
 [
   {
-    "id": "39",
-    "title": "Hạt Royal Canin Mini Adult cho chó trưởng thành",
-    "src": "image/product-sale-1.png",
-    "price": "180000",
-    "category": "product-sale",
-    "description": "Những chú chó có kích cỡ nhỏ chỉ cần những loại thức ăn có thiết kế nhỏ, tuy nhiên chúng lại cần nhiều năng lượng hơn giống chó lớn vì chúng có thời kỳ tăng trưởng ngắn hơn và mạnh mẽ hơn. Thêm vào đó, tuổi thọ trung bình của giống chó nhỏ cao hơn giống chó lớn, chính vì vậy chúng khá khắc khe trong việc ăn uống. Công thức của ROYAL CANIN Mini Adult được thiết kế để đáp ứng các nhu cầu dinh dưỡng đặc thù của giống chó nhỏ trong độ tuổi dưới 10 tháng."
+    "id": "0",
+    "title": "Trà Nhài",
+    "src": "images/z7120116767295_1841fe0717cec49844ea01d5859d78dc.jpg",
+    "price": "35000",
+    "category": "tra",
+    "description": "🫖 Trà Thức uống thanh mát được pha từ những lá trà tươi chọn lọc, mang đến hương vị tự nhiên và dịu nhẹ. Thích hợp để giải nhiệt và thư giãn sau bữa ăn."
   },
   {
-    "id": "40",
-    "title": "Bánh thưởng mềm có nhân gói 8 thanh Churu Bee cho chó",
-    "src": "image/product-sale-2.png",
-    "price": "79000",
-    "category": "product-sale",
-    "description": "- Xương gặm và bánh thưởng không được cho ăn vượt quá 10% khẩu phần ăn hằng ngày của cún. Luôn chuẩn bị sẵn nước sạch cho cún. Xương da bò không nên cho ăn thường xuyên, không thích hợp với cún ăn nhanh hoặc nuốt trọng, các bé cún nhỏ hoặc cún già răng yếu. Nên lựa chọn xương da bò có kích thước lớn hơn độ rộng xương hàm của cún để tránh bị mắc nghẹn. Để đảm bảo an toàn, chủ nuôi cần quan sát trong lúc thú cưng gặm các loại xương cứng."
+    "id": "1",
+    "title": "Trà hoa quả nhiệt đới",
+    "src": "images/z7120118701110_bd7f56568aefaa4b939050bc528d2c99.jpg",
+    "price": "35000",
+    "category": "tra",
+    "description": "🫖 Trà Thức uống thanh mát được pha từ những lá trà tươi chọn lọc, mang đến hương vị tự nhiên và dịu nhẹ. Thích hợp để giải nhiệt và thư giãn sau bữa ăn."
   },
   {
-    "id": "41",
-    "title": "DORRIKEY Bánh thưởng cho mèo",
-    "src": "image/product-sale-3.png",
+    "id": "2",
+    "title": "Trà chanh",
+    "src": "images/z7120119081802_6acc94b122b041586c8741e2510422bd.jpg",
+    "price": "30000",
+    "category": "tra",
+    "description": "🫖 Trà Thức uống thanh mát được pha từ những lá trà tươi chọn lọc, mang đến hương vị tự nhiên và dịu nhẹ. Thích hợp để giải nhiệt và thư giãn sau bữa ăn"
+  },
+  {
+    "id": "3",
+    "title": "Mỳ cay kim chi",
+    "src": "images/mycaykimchi.jpg",
+    "price": "80000",
+    "category": "mycay",
+    "description": "🌶️ Mì cay Món ăn nổi tiếng Hàn Quốc với sợi mì dai ngon, hòa quyện cùng nước súp cay nồng, đậm đà. Topping phong phú như hải sản, bò, xúc xích, và rau củ tươi tạo nên hương vị hấp dẫn khó quên."
+  },
+  {
+    "id": "4",
+    "title": "Mỳ cay kim chi bò",
+    "src": "images/mycaybo.png",
+    "price": "85000",
+    "category": "mycay",
+    "description": "🌶️ Mì cay Món ăn nổi tiếng Hàn Quốc với sợi mì dai ngon, hòa quyện cùng nước súp cay nồng, đậm đà. Topping phong phú như hải sản, bò, xúc xích, và rau củ tươi tạo nên hương vị hấp dẫn khó quên."
+  },
+  {
+    "id": "5",
+    "title": "Mỳ cay xuc xích",
+    "src": "images/mi-kim-chi-xuc-xich-ca-vien-01-a.jpg",
+    "price": "70000",
+    "category": "mycay",
+    "description": "🌶️ Mì cay Món ăn nổi tiếng Hàn Quốc với sợi mì dai ngon, hòa quyện cùng nước súp cay nồng, đậm đà. Topping phong phú như hải sản, bò, xúc xích, và rau củ tươi tạo nên hương vị hấp dẫn khó quên."
+  },
+  {
+    "id": "6",
+    "title": "Trà sữa khoai môn",
+    "src": "images/z7120116759480_2028ae2e59b2f6b641735734802bf726.jpg",
+    "price": "39000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
+  },
+  {
+    "id": "7",
+    "title": "Trà sữa matcha",
+    "src": "images/z7120119013551_67cff7df46943bcffeb275f478e6666a.jpg",
+    "price": "39000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
+  },
+  {
+    "id": "8",
+    "title": "Trà sữa hạt dẻ",
+    "src": "images/z7120116777186_910bfb12d71b85e721b4e2e563980466.jpg",
     "price": "40000",
-    "category": "product-sale",
-    "description": "Cho mèo cưng ăn 8-10 / bánh một ngày. Dùng trực tiếp. Ăn ngay sau khi mở gói hoặc trộn với hạt để nâng cao giá trị dinh dưỡng cho bữa ăn , đóng kín sau khi sử dụng. Giữ nơi khô ráo thoáng mát. Tránh để nơi chiếu ánh nắng trực tiếp hoặc nơi có nhiệt độ cao"
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
   },
   {
-    "id": "42",
-    "title": "DORRIKEY Kềm cắt móng cho thú cưng tiện dụng",
-    "src": "image/product-sale-4.png",
-    "price": "20000",
-    "category": "product-sale",
-    "description": "Bộ cắt móng chân chó mèo thích hợp cho vật nuôi nhỏ, vừa và lớn. Bộ kiềm cắt móng chó có chất liệu thép không gỉ, chống ăn mòn, chịu nhiệt độ cao, độ bền cao, sắc nét và bền. Bấm móng chân cho chó có thiết kế vách ngăn ngăn da không bị cắt quá sâu, ngăn móng tay bắn tung tóe, tổn thương mắt người chủ. Kìm bấm móng chân cho chó có tay cầm chống trượt, chức năng massage chống trượt chống trượt, không dị ứng. Kiềm cắt móng cán thẳng thiết kế lò xo, phục hồi nhanh, dễ sử dụng"
+    "id": "9",
+    "title": "Trà sữa kem phô mai",
+    "src": "images/tsphomai.jpg",
+    "price": "40000",
+    "category": "trasua",
+    "description": "🧋 Trà sữa Thức uống được yêu thích với vị béo ngậy của sữa hòa cùng hương trà thơm dịu. Có thể kết hợp với nhiều loại topping như trân châu, thạch, pudding… mang lại trải nghiệm ngọt ngào, thú vị."
   },
   {
-    "id": "43",
-    "title": "Tông đơ tỉa lông giảm tiếng ồn có đèn chiếu Pakeway cho chó mèo",
-    "src": "image/product-new-1.png",
-    "price": "230000",
-    "category": "product-new",
-    "description": "Tông đơ cạo bàn chân cho chó mèo có đèn LED, hạn chế tiếng ồn - Máy tỉa lông thú cưng full phụ kiện nhập khẩu cao cấp. Tất cả các dòng chó mèo lông dài, ngắn, dầy, mỏng đều cắt được hết nhé. Bất kể các dòng giống gì đều cắt được luôn ạ."
+    "id": "10",
+    "title": "Kimbap thường",
+    "src": "images/z7120117734092_4c0d43cf4797b343f82e1a7b2c37cd28.jpg",
+    "price": "42000",
+    "category": "kimbap",
+    "description": "🍙 Kimbap Món cơm cuộn truyền thống Hàn Quốc, được cuộn khéo léo với cơm trắng, trứng, rau củ, xúc xích hoặc cá ngừ, phủ bên ngoài là lớp rong biển thơm lừng. Tiện lợi, ngon miệng và đầy đủ dinh dưỡng."
   },
   {
-    "id": "44",
-    "title": " Thức ăn cho mèo Royal Canin - 2kg túi nguyên",
-    "src": "image/product-new-2.png",
-    "price": "480000",
-    "category": "product-new",
-    "description": "Thức Ăn Hạt Royal Canin Mother & Baby Cat 34 Cho Mèo Mẹ Và Mèo Con. MOTHER & BABY CAT là sản phẩm thức ăn khô dành cho mèo con dưới 4 tháng tuổi  và mèo mẹ mang thai của Royal Canin, Pháp. "
+    "id": "11",
+    "title": "Kimbap chiên",
+    "src": "images/kimbapc.jpg",
+    "price": "49000",
+    "category": "kimbap",
+    "description": "🍙 Kimbap Món cơm cuộn truyền thống Hàn Quốc, được cuộn khéo léo với cơm trắng, trứng, rau củ, xúc xích hoặc cá ngừ, phủ bên ngoài là lớp rong biển thơm lừng. Tiện lợi, ngon miệng và đầy đủ dinh dưỡng."
   },
   {
-    "id": "45",
-    "title": " Pate Mèo Royal Canin Mother Babycat Cho Mèo Mẹ & Mèo Con (Lon 195g)",
-    "src": "image/product-new-3.png",
-    "price": "55000",
-    "category": "product-new",
-    "description": "Công thức FELINE HEALTH NUTRITION ™ tạo nên thức ăn ướt được thiết kế trên nhu cầu dinh dưỡng và sở thích bản năng của mèo. Công thức này được tạo ra với sự cân bằng tối ưu về protein, chất béo và tinh bột carbohydrate nhằm mang đến sự ngon miệng và bổ sung dinh dưỡng hoàn hảo cho thực phẩm khô cao cấp dành cho mèo của ROYAL CANIN. "
+    "id": "12",
+    "title": "Tokkbokki",
+    "src": "images/z7120117636133_37a59aae72820d6f6492f8a0d34391d5.jpg",
+    "price": "70000",
+    "category": "tokkbokki",
+    "description": "🍲 Tokkbokki Bánh gạo Hàn Quốc mềm dẻo hòa quyện cùng sốt cay ngọt đặc trưng. Món ăn đường phố được yêu thích với hương vị đậm đà, hấp dẫn mọi lứa tuổi.lớp rong biển thơm lừng. Tiện lợi, ngon miệng và đầy đủ dinh dưỡng."
   },
   {
-    "id": "46",
-    "title": "Bàn cào móng DORRIKEY hình tròn chất lượng cao cho mèo cưng",
-    "src": "image/product-new-4.png",
-    "price": "66000",
-    "category": "product-new",
-    "description": " Bàn Cào Móng Size Lớn Nhựa Cao Cấp Chống Trầy Xước Cho Mèo BCM001 - Tặng kèm cỏ bạc hà CANIP - MIAOCAT"
-  },
-  {
-    "id": "47",
-    "title": "Tông đơ tỉa lông giảm tiếng ồn có đèn chiếu Pakeway cho chó mèo",
-    "src": "image/product-restock-1.png",
-    "price": "230000",
-    "category": "product-restock",
-    "description": "Tông đơ cạo bàn chân cho chó mèo có đèn LED, hạn chế tiếng ồn - Máy tỉa lông thú cưng full phụ kiện nhập khẩu cao cấp. Tất cả các dòng chó mèo lông dài, ngắn, dầy, mỏng đều cắt được hết nhé. Bất kể các dòng giống gì đều cắt được luôn ạ."
-  },
-  {
-    "id": "48",
-    "title": " Thức ăn cho mèo Royal Canin - 2kg túi nguyên",
-    "src": "image/product-restock-2.png",
-    "price": "480000",
-    "category": "product-restock",
-    "description": "Thức Ăn Hạt Royal Canin Mother & Baby Cat 34 Cho Mèo Mẹ Và Mèo Con. MOTHER & BABY CAT là sản phẩm thức ăn khô dành cho mèo con dưới 4 tháng tuổi  và mèo mẹ mang thai của Royal Canin, Pháp. "
-  },
-  {
-    "id": "49",
-    "title": " Pate Mèo Royal Canin Mother Babycat Cho Mèo Mẹ & Mèo Con (Lon 195g)",
-    "src": "image/product-restock-3.png",
-    "price": "55000",
-    "category": "product-restock",
-    "description": "Công thức FELINE HEALTH NUTRITION ™ tạo nên thức ăn ướt được thiết kế trên nhu cầu dinh dưỡng và sở thích bản năng của mèo. Công thức này được tạo ra với sự cân bằng tối ưu về protein, chất béo và tinh bột carbohydrate nhằm mang đến sự ngon miệng và bổ sung dinh dưỡng hoàn hảo cho thực phẩm khô cao cấp dành cho mèo của ROYAL CANIN. "
-  },
-  {
-    "id": "50",
-    "title": "Bàn cào móng DORRIKEY hình tròn chất lượng cao cho mèo cưng",
-    "src": "image/product-restock-4.png",
-    "price": "66000",
-    "category": "product-restock",
-    "description": " Bàn Cào Móng Size Lớn Nhựa Cao Cấp Chống Trầy Xước Cho Mèo BCM001 - Tặng kèm cỏ bạc hà CANIP - MIAOCAT"
+    "id": "13",
+    "title": "Set lẩu to",
+    "src": "images/setlau.jpg",
+    "price": "150000",
+    "category": "lau",
+    "description": "🍲 Set lẩu to Món ăn đặc trưng của Hàn Quốc, bao gồm nhiều loại thịt, hải sản và rau củ tươi ngon, được nấu trong nồi lẩu sôi sùng sục. Thưởng thức cùng với nước chấm đặc biệt, mang đến trải nghiệm ẩm thực tuyệt vời cho bạn và gia đình."
   }
 ]
