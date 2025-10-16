@@ -21,5 +21,5 @@ findBtn.addEventListener("click", function () {
   localStorage.setItem("idPageProduct", JSON.stringify("productFilter"));
   localStorage.setItem("idPageProductTitle", JSON.stringify(productTitle));
   localStorage.setItem("productsFiltered", JSON.stringify(productsFiltered));
-  window.location.href = "../html/product.html";
+  window.location.href = "./html/product.html";
 });
